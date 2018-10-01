@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Stellar</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>WeeM</h1>
+						<p>Web and Application Development<br />
+						- Software and Coding Tutorial</p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#first">First Section</a></li>
+							<li><a href="#second">Second Section</a></li>
+							<li><a href="#cta">Get Started</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main weem">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>What you should know about me</h2>
+										</header>
+										<p>My name is WeeM....that's it. Then what am i doin'? it will be
+										a long explanation. Anyway, we present a variety of programing tutorials, n we offer kinds of software
+										such as Linux distro's. We don't abuse or pirate of any open source software, we just make it easier for you.
+										So, please comin' and make your self at home.
+
+									 </p>
+										<ul class="actions">
+											<li><a href="generic.html" class="button weemb">Let's find out More</a></li>
+										</ul>
+									</div>
+									<span class="weemimg"><img src="images/weem.png" alt="" /></span>
+								</div>
+							</section>
+
+					 <!-- Copy dari section intro -->
+					 <section id="intro" class="main">
+	 					<div class="spotlight">
+	 						<div class="content">
+	 							<header class="major">
+	 								<h2>Am I selling open sources programs?</h2>
+	 							</header>
+	 							<p>No, all programs here abssolutely Free, we will provide links to each developer site,
+									and you can download and use it, and even, we will give you a tutorial on how to use it.
+									For your convenience, we offer the media such as USB that has been installed and set up,
+									then you can easily use it. You only need to pay hardware, services, data charge,
+									and all other necessities (don't worry it wouldn't be expensive).</p>
+	 							<ul class="actions">
+	 								<li><a href="generic.html" class="button">Learn More</a></li>
+	 							</ul>
+	 						</div>
+	 						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+	 					</div>
+	 				</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>What you will get here?</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon major style1 fa-code"></span>
+<!--										<h3>Tutorials</h3> -->
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>Amed sed feugiat</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-diamond"></span>
+										<h3>Dolor nullam</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+								</ul>
+								<footer class="major">
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Ipsum consequat</h2>
+									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+								</header>
+								<ul class="statistics">
+									<li class="style1">
+										<span class="icon fa-code-fork"></span>
+										<strong>5,120</strong> Etiam
+									</li>
+									<li class="style2">
+										<span class="icon fa-folder-open-o"></span>
+										<strong>8,192</strong> Magna
+									</li>
+									<li class="style3">
+										<span class="icon fa-signal"></span>
+										<strong>2,048</strong> Tempus
+									</li>
+									<li class="style4">
+										<span class="icon fa-laptop"></span>
+										<strong>4,096</strong> Aliquam
+									</li>
+									<li class="style5">
+										<span class="icon fa-diamond"></span>
+										<strong>1,024</strong> Nullam
+									</li>
+								</ul>
+								<p class="content">My name is WeeM....that's all you should know about me :) Then what im doing? it will be
+								a long explanation. Anyway, we present a variety of programing and coding tutorials, and we provide
+								various kinds of software such as Linux distro's in a disk, USB or other types of storage devices.
+								We don't abuse or pirate of any open source software or etc that totaly free, we just make it easier
+								for you to get it without having to bother or take a long time to download, copying, installing and more.
+								For those who enjoy the complexity or learn about Software, Coding, programing, we provide various tutorials
+								from anything we know.
+								So, please comin' and make your self at home.</p>
+								<footer class="major">
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Congue imperdiet</h2>
+									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions">
+										<li><a href="generic.html" class="button special">Get Started</a></li>
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Etiam feugiat</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd>
+								<dt>Email</dt>
+								<dd><a href="#">information@untitled.tld</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Untitled <script>document.write(new Date().getFullYear())</script></p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
