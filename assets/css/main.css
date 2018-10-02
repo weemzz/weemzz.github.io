@@ -3861,6 +3861,45 @@
 
 		}
 
+/*cursor*/
+.cursor {
+    position: relative;
+		font-family: monospace;
+    top: 0;
+    bottom: 0;
+    right: 0;
+		left: 0.2em;
+    width: 100%;
+		color: white;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: 0.1em solid;
+    -webkit-animation: typing 12s steps(13, end) infinite, blinking 1s step-end infinite;
+    animation: typing 12s steps(13, end) infinite, blinking 1s step-end infinite;
+}
+@-webkit-keyframes typing {
+    from,to { width: 100%; }
+    25% { width: 0; }
+    50% { width: 0; }
+    75% { width: 100%; }
+}
+
+@keyframes typing {
+    from { width: 100%; }
+    to { width: 0; }
+}
+
+@-webkit-keyframes blinking {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+
+@keyframes blinking {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+
 /* Wrapper */
 
 	#wrapper {
