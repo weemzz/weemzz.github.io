@@ -3182,8 +3182,16 @@
 			letter-spacing: -0.025em;
 		}
 
+		#header p .logoWim {
+		    font-size: 1.4em;
+		    color: lime;
+		    font-family: courier new;
+		    margin-right: 0.3em;
+		    font-weight: 500;
+				}
+
 		#header.alt {
-			padding: 2em 5em 2em 5em ;
+			padding: 4em 2em 1em 2e ;
 		}
 
 			#header.alt h1 {
