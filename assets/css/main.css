@@ -3183,11 +3183,11 @@
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 2em 5em 2em 5em ;
 		}
 
 			#header.alt h1 {
-				font-size: 3.25em;
+				font-size: 4.25em;
 				color: lime;
                                 font-family: courier new;
 			}
@@ -3267,7 +3267,7 @@
 				}
 
 					#header.alt h1 {
-						font-size: 2.5em;
+						font-size: 3.5em;
 					}
 
 		}
