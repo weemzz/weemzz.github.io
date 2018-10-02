@@ -3188,6 +3188,8 @@
 
 			#header.alt h1 {
 				font-size: 3.25em;
+				color: lime;
+                                font-family: courier new;
 			}
 
 			#header.alt > * {
