@@ -3081,7 +3081,7 @@
 			.spotlight .weemimg img {
 				display: block;
 				border-radius: 100%;
-				width: 16em;
+				width: 18em;
 				opacity: 0.2;
 				filter: alpha(opacity=50); /* For IE8 and earlier */
 			}
@@ -3450,7 +3450,6 @@
 		.weem {
 			background-color: #000000;
 			color: #ffffff;
-			padding: 5em 2em 3em 5em !important;
 		}
 
 		#main input, #main select, #main textarea {
@@ -3936,4 +3935,9 @@
 				max-width: 100%;
 			}
 
+		}
+
+		#aboutweem {
+			padding: 5em 3em 3em 5em !important;
+    			box-sizing: border-box;
 		}
