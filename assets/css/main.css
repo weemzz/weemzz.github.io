@@ -3450,6 +3450,8 @@
 		.weem {
 			background-color: #000000;
 			color: #ffffff;
+			padding: 5em 3em 3em 5em !important;
+    			box-sizing: border-box;
 		}
 
 		#main input, #main select, #main textarea {
@@ -3937,7 +3939,7 @@
 
 		}
 
-		#aboutweem {
+/*		#aboutweem {
 			padding: 5em 3em 3em 5em !important;
     			box-sizing: border-box;
-		}
+		} */
