@@ -3447,10 +3447,10 @@
 		border-radius: 0.25em;
 	}
 
-		#weem {
+		#main .weem {
 			background-color: #000000;
 			color: #ffffff;
-			padding: 5em 3em 3em 5em !important;
+			padding: 5em 3em 3em 5em;
     			box-sizing: border-box;
 		}
 
@@ -3729,6 +3729,9 @@
 					margin: -4em 0 4em -4em;
 					width: calc(100% + 8em);
 				}
+			#main > .weem {
+				padding: 4em 4em 2em 4em ;
+			}
 
 		}
 
@@ -3742,6 +3745,10 @@
 					margin: -4em 0 4em -3em;
 					width: calc(100% + 6em);
 				}
+			
+			#main > .weem {
+				padding: 4em 3em 2em 3em ;
+			}
 
 		}
 
@@ -3755,6 +3762,10 @@
 					margin: -3em 0 2em -2em;
 					width: calc(100% + 4em);
 				}
+			
+			#main > .weem {
+				padding: 3em 2em 1em 2em ;
+			}
 
 		}
 
@@ -3768,6 +3779,10 @@
 					margin: -3em 0 1.5em -1.5em;
 					width: calc(100% + 3em);
 				}
+			
+			#main > .weem {
+				padding: 3em 1.5em 1em 1.5em ;
+			}
 
 		}
 
@@ -3777,6 +3792,10 @@
 				border-radius: 0;
 			}
 
+				#main > .weem {
+					padding: 2.5em 1em 0.5em 1em ;
+				}
+			
 				#main > .main {
 					padding: 2.5em 1em 0.5em 1em ;
 				}
