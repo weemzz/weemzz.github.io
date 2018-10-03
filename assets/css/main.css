@@ -3081,13 +3081,13 @@
 			.spotlight .weemimg img {
 				display: block;
 				border-radius: 100%;
-				width: 18em;
-				opacity: 0.2;
+				width: 21em;
+				opacity: 0.3;
 				filter: alpha(opacity=50); /* For IE8 and earlier */
 			}
 
 		.spotlight .weemimg img:hover {
-		opacity: 0.3;
+		opacity: 0.5;
 		filter: alpha(opacity=100); /* For IE8 and earlier */
 	}
 
@@ -3149,13 +3149,13 @@
 			}
 
 				.spotlight .weemimg img {
-					width: 16em;
-					opacity: 0.2;
+					width: 18em;
+					opacity: 0.3;
 					filter: alpha(opacity=50); /* For IE8 and earlier */
 				}
 
 				.spotlight .weemimg img:hover {
-				opacity: 0.3;
+				opacity: 0.5;
 				filter: alpha(opacity=100); /* For IE8 and earlier */
 			}
 
@@ -3450,7 +3450,7 @@
 		#main .weem {
 			background-color: #000000;
 			color: #ffffff;
-			padding: 3em 3em 3em 5em;
+			padding: 3em 2em 3em 5em;
     			box-sizing: border-box;
 		}
 
