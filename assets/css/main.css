@@ -3191,7 +3191,7 @@
 				}
 
 		#header.alt {
-			padding: 4em 2em 1em 2e ;
+			padding: 1em 2em 1em 2e ;
 		}
 
 			#header.alt h1 {
@@ -3210,6 +3210,7 @@
 				-ms-transition-delay: 0.5s;
 				transition-delay: 0.5s;
 				opacity: 1;
+				margin: 0 0 0.5em 0;
 			}
 
 			#header.alt .logo {
@@ -3238,7 +3239,7 @@
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 1em 2em 1em 2em ;
 				}
 
 		}
@@ -3250,7 +3251,7 @@
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 1em 2em 1em 2em ;
 				}
 
 		}
@@ -3271,7 +3272,7 @@
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 1em 2em 1em 2em ;
 				}
 
 					#header.alt h1 {
@@ -3287,7 +3288,7 @@
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 1em 2em 1em 2em ;
 				}
 
 		}
@@ -3299,7 +3300,7 @@
 			}
 
 				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
+					padding: 1em 2em 1em 2em ;
 				}
 
 		}
