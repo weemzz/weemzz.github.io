@@ -3962,3 +3962,43 @@
 			padding: 5em 3em 3em 5em !important;
     			box-sizing: border-box;
 		} */
+
+		.distros {
+			list-style: none;
+		 display: inline-block;
+		 padding: 0;
+		}
+
+		.distros img {
+			width: 100%;
+		}
+
+		.col1 {
+		    float: left;
+		    width: 100px;
+		    padding: 0 0.5em 0 0;
+		}
+
+		.col2 {
+		    float: left;
+		    width: 100px;
+		    padding-left: 0.9em;
+		}
+
+		.col3 {
+		    float: left;
+		    width: 100px;
+		    padding-left: 0.9em;
+		}
+
+		.col4 {
+		    float: left;
+		    width: 100px;
+		    padding-left: 0.9em;
+		}
+
+		.col5 {
+		    float: left;
+		    width: 100px;
+		    padding-left: 0.9em;
+		}
