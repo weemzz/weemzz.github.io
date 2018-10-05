@@ -3974,11 +3974,11 @@
 		}
 
 		.distros li {
-		   margin-left: 2em;
-		   margin-top: 0;
-		   padding: 0;
-		   display: inline-block;
-		   float: left;
+			margin-left: 2em;
+			margin-top: 0;
+			padding: 0;
+			display: inline-block;
+			float: left;
 		}
 
 			.distros li:nth-child(1) {
@@ -3988,7 +3988,7 @@
 
 			.distros li:nth-child(2), .distros li:nth-child(3), .distros li:nth-child(4), .distros li:nth-child(5) {
 				margin-top: 0;
-    				padding-left: 0.9em;
+    		padding-left: 0.9em;
 			}
 
 			.distros li > :last-child {
@@ -4014,19 +4014,21 @@
 			}
 
 				.distros li {
-					width: 66px;
+					width: 54px;
 					margin-left: 0;
 					margin-top: 0;
 				}
 
 					.distros li:nth-child(2), .distros li:nth-child(3), .distros li:nth-child(4), .distros li:nth-child(5) {
 						margin-top: 0;
+						padding-left: 0;
+    				margin-left: 12px;
 					}
 
 					.distros li:nth-child(1) {
-					    padding-left: 0;
-					    margin-left: 0;
-					    width: 55px;
+						padding-left: 0;
+				    margin-left: 0;
+				    width: 55px;
 					}
 
 		}
