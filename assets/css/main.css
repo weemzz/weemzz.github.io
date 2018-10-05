@@ -3998,7 +3998,7 @@
 		@media screen and (max-width: 980px) {
 
 			.distros li {
-				width: auto;
+				width: 90px;
 			}
 
 				.distros li:nth-child(3) {
