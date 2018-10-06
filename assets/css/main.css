@@ -3968,31 +3968,37 @@
 		} */
 
 		.distros {
-		 list-style: none;
+			list-style: none;
 		 display: inline-block;
 		 padding: 0;
 		}
 
+		.icon .linux {
+		border: solid 1px;
+		display: inline-block;
+		border-radius: 100%;
+		padding: 0.65em;
+		margin: 0 0 2em 0;
+		cursor: default;
+		}
+
 		.distros img {
-		    width: 100%;
+			width: 100%;
 		}
 
 		.distros li {
-			margin-left: 2em;
-			margin-top: 0;
+			margin: 0 0 2em 2em;
 			padding: 0;
 			display: inline-block;
-			float: left;
 		}
 
-			.distros li:nth-child(1) {
+			.distros li:first-child {
 				padding-left: 0;
 				margin-left: 0;
 			}
 
-			.distros li:nth-child(2), .distros li:nth-child(3), .distros li:nth-child(4), .distros li:nth-child(5) {
-				margin-top: 0;
-    		padding-left: 0.9em;
+			.distros li:nth-child(9) {
+				margin: 0 0 2em 0;
 			}
 
 			.distros li > :last-child {
@@ -4004,11 +4010,7 @@
 			.distros li {
 				width: 90px;
 			}
-
-				.distros li:nth-child(3) {
-					margin-top: 0;
-				}
-
+			
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4019,20 +4021,23 @@
 
 				.distros li {
 					width: 54px;
-					margin-left: 0;
-					margin-top: 0;
+					margin: 0 0 2em 1em;
+					padding-left: 0;
 				}
 
-					.distros li:nth-child(2), .distros li:nth-child(3), .distros li:nth-child(4), .distros li:nth-child(5) {
-						margin-top: 0;
+				.distros li:nth-child(9) {
+					margin: 0 0 2em 1em;
+				}
+
+					.distros li:first-child {
 						padding-left: 0;
-    				margin-left: 12px;
+						margin-left: 0;
+						width: 55px;
 					}
 
-					.distros li:nth-child(1) {
-						padding-left: 0;
-				    margin-left: 0;
-				    width: 55px;
+					.distros li:nth-child(8),
+					.distros li:nth-child(15) {
+						margin: 0 0 2em 0;
 					}
 
 		}
