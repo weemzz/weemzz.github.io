@@ -3997,10 +3997,6 @@
 				margin-left: 0;
 			}
 
-			.distros li:nth-child(9) {
-				margin: 0 0 2em 0;
-			}
-
 			.distros li > :last-child {
 				margin-bottom: 0;
 			}
