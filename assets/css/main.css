@@ -3962,10 +3962,10 @@
 
 		}
 
-/*		#aboutweem {
-			padding: 5em 3em 3em 5em !important;
-    			box-sizing: border-box;
-		} */
+
+
+
+/* DISTRO */
 
 		.distros {
 			list-style: none;
@@ -3974,12 +3974,12 @@
 		}
 
 		.icon .linux {
-		border: solid 1px;
-		display: inline-block;
-		border-radius: 100%;
-		padding: 0.65em;
-		margin: 0 0 2em 0;
-		cursor: default;
+    border: solid 1px;
+    display: inline-block;
+    border-radius: 100%;
+    padding: 0.65em;
+    margin: 0 0 2em 0;
+    cursor: default;
 		}
 
 		.distros img {
@@ -4010,7 +4010,8 @@
 			.distros li {
 				width: 90px;
 			}
-			
+
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4025,18 +4026,14 @@
 					padding-left: 0;
 				}
 
-				.distros li:nth-child(9) {
-					margin: 0 0 2em 1em;
-				}
-
 					.distros li:first-child {
 						padding-left: 0;
-						margin-left: 0;
-						width: 55px;
+				    margin-left: 0;
+				    width: 55px;
 					}
 
-					.distros li:nth-child(8),
-					.distros li:nth-child(15) {
+					.distros li:nth-child(9),
+					.distros li:nth-child(17) {
 						margin: 0 0 2em 0;
 					}
 
