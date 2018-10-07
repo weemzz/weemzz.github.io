@@ -2713,8 +2713,8 @@
 				}
 
 		header.major p {
-			font-size: 1.25em;
-			letter-spacing: -0.025em;
+			font-size: 1.2em;
+			letter-spacing: 0;
 		}
 
 		header.major.special {
@@ -3063,7 +3063,7 @@
 
 		.spotlight .image {
 			display: inline-block;
-			margin-left: 4em;
+			margin-right: 4em;
 			padding: 0.65em;
 			border-radius: 100%;
 			border: solid 1px;
@@ -3124,7 +3124,8 @@
 					-ms-flex: 0 1 auto;
 					flex: 0 1 auto;
 					margin-left: 0;
-					margin-bottom: 2em;
+					margin-top: 2em;
+					margin-right: 0;
 				}
 
 				.spotlight .weemimg {
