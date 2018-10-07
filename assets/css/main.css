@@ -4035,3 +4035,25 @@
 					}
 
 		}
+
+
+		ul.actionsz {
+		    list-style: disc;
+		    margin: 0 0 2em 0;
+		    padding-left: 1em;
+		}
+ul.actionsz li {
+    display: block;
+    padding: 0 1em 0 0;
+    vertical-align: middle;
+		text-align: center;
+}
+
+#main .buttons {
+    background-color: grey;
+    color: #ffffff;
+    padding: 12px;
+    margin: 5px;
+    display: inline-block;
+    border-color: #000000;
+}
