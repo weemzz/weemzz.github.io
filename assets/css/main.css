@@ -4037,16 +4037,51 @@
 		}
 
 
-		ul.actionsz {
-		    list-style: disc;
-		    margin: 0 0 2em 0;
-		    padding-left: 1em;
+/* Under Construction */
+		.under {
+				display: flex;
+				align-items: center;
+				margin: 0;
 		}
-ul.actionsz li {
-    display: block;
-    padding: 0 1em 0 0;
-    vertical-align: middle;
-		text-align: center;
+
+		.unders {
+			box-sizing: border-box;
+			padding: 0;
+		}
+
+		.construction {
+				 width: auto;
+				 display: inline-block;
+				 margin: 0 auto;
+		}
+
+		.construction img {
+				width: 100%;
+    }
+
+		ul.actionsz {
+		    text-align: center;
+		    list-style: none;
+		    padding: 10px;
+		}
+		ul.actionsz li {
+		    margin: auto;
+		    padding: 10px;
+		    width: 20%;
+		    border: 1px solid lightgrey;
+		    color: black;
+		    background-color: lightgray;
+		}
+
+		ul.actionsz li a {
+	    text-decoration: none;
+	    font-weight: 500;
+	}
+
+ul.actionsNote {
+    text-align: center;
+    list-style: none;
+    padding: 10px;
 }
 
 #main .buttons {
@@ -4056,4 +4091,16 @@ ul.actionsz li {
     margin: 5px;
     display: inline-block;
     border-color: #000000;
+}
+
+#second {
+    background-color: darkslategray;
+    color: blanchedalmond;
+    text-align: justify;
+}
+
+#second h2 {
+    font-size: 2em;
+    text-align: center;
+    color: azure;
 }
