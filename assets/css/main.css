@@ -3521,7 +3521,7 @@
 
 		#main .weem {
 			background-color: #000000;
-			color: #ffffff;
+			color: lightgray;
 			padding: 3em 2em 3em 5em;
     			box-sizing: border-box;
 		}
