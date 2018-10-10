@@ -3446,6 +3446,7 @@
 			    width: 100%;
 			    display: flex;
 			    padding: 0.5em;
+			    display: none;
 			}
 			#nav ul li {
 				margin : 0 0.05em;
