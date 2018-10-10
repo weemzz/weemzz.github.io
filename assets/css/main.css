@@ -3451,6 +3451,16 @@
 				margin : 0 0.05em;
 			}
 			
+			#nav ul li a {
+			    display: inline-block;
+			    height: 0;
+			    line-height: 0;
+			    padding: 0.5em;
+			    border: 0;
+			    border-radius: 0;
+			    box-shadow: none;
+			}
+			
 			.logoWimNav {
 				font-size: 1.5em;
 			}
