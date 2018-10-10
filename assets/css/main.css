@@ -4280,3 +4280,26 @@ ul.actionsNote {
 		font-size: 1.5em;
 		color: rgb(238,130,238);
 	}
+
+.logoWimNav {
+    font-size: 1.6em;
+    color: darkgreen;
+    font-family: courier new;
+}
+
+.cursorNav {
+    position: relative;
+    font-family: monospace;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0.4em;
+    width: 100%;
+    color: white;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: 0.1em solid;
+    -webkit-animation: typing 12s steps(13, end) infinite, blinking 1s step-end infinite;
+    animation: typing 12s steps(13, end) infinite, blinking 1s step-end infinite;
+}
