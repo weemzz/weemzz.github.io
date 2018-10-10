@@ -3442,7 +3442,12 @@
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+			    font-size: 12px;
+			    width: 100%;
+			    display: flex;
+			}
+			#nav ul li {
+				margin : 0 0.05em;
 			}
 
 				#nav + #main {
