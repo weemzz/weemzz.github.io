@@ -3462,7 +3462,7 @@
 			}
 			
 			.logoWimNav {
-				font-size: 1.5em;
+				font-size: 1.5em !important;
 			}
 
 				#nav + #main {
