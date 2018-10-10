@@ -3203,7 +3203,7 @@
 				}
 
 		#header.alt {
-			padding: 1em 2em 1em 2em ;
+			padding: 5em 2em 3em 2em ;
 		}
 
 			#header.alt h1 {
@@ -3235,7 +3235,7 @@
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 0 0 1.5em 0;
+				margin: 0 0 2.5em 0;
 			}
 
 				#header.alt .logo img {
