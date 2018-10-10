@@ -3449,6 +3449,10 @@
 			#nav ul li {
 				margin : 0 0.05em;
 			}
+			
+			.logoWimNav {
+				font-size: 1.5em;
+			}
 
 				#nav + #main {
 					padding-top: 0;
