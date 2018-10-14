@@ -97,3 +97,11 @@ $(document).ready(function(){
         });
     });
  });
+
+ function hover(element) {
+   element.setAttribute('src', 'img/weem.png');
+ }
+
+ function unhover(element) {
+   element.setAttribute('src', 'img/weem.png');
+ }
