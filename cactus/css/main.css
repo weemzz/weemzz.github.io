@@ -2022,19 +2022,60 @@
  @media (max-width: 767px){
  .wim-area-banner .fullscreen{
  height:1000px !important;
-
+  }
 }
- ;
 
-}
+	@media screen and (max-width: 980px){
+    .wim-area-banner{
+    }
+    .wim-left-banner {
+    margin: 10em 0;
+    }
+  }
+
+  	@media screen and (max-width: 360px){
+      .wim-area-banner{
+        padding-bottom: 10em;
+      }
+      .wim-left-banner {
+      }
+    }
+
+    @media screen and (max-width: 480px){
+      .wim-area-banner{
+        padding-bottom: 10em;
+      }
+      .wim-left-banner {
+      margin: 10em 0;
+      }
+    }
+
+    @media screen and (max-width: 736px){
+      .wim-area-banner{
+        padding-bottom: 10em;
+      }
+      .wim-left-banner {
+      margin: 10em 0;
+      }
+    }
+
+    @media screen and (max-width: 1280px){
+      .wim-area-banner{
+      }
+      .wim-left-banner {
+      margin: 10em 0;
+      }
+      .black {
+      }
+    }
+
  @media (max-width: 1199px){
  .wim-left-banner{
  margin-top:60px;
 
+  }
 }
- ;
 
-}
  .story-content h1{
  font-size:48px;
  font-weight:100;
