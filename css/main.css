@@ -2765,3 +2765,7 @@ background-image: url(img/w2.png);
     color: #08c1c4;
     margin-bottom: 0.7rem;
 }
+
+.wim-featured{
+  background-color: #cefcfd;
+}
