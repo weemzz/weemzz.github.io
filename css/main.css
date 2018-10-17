@@ -1838,7 +1838,7 @@
 }
  @media (max-width: 767px){
  .wimMainMenubar a{
- color:#fff;
+ color:#000;
 
 }
  .wimMainMenubar a:hover{
@@ -1862,21 +1862,20 @@
  transform-origin:100% 50%;
 
 }
- @media (max-width: 767px){
- nav{
- margin-right:0;
- position:absolute;
- right:0;
- top:47px;
- text-align:right;
- padding:20px 0;
- z-index:5;
- background:#08c1c4;
 
-}
- ;
+ /* @media (max-width: 767px){
+     nav{
+     margin-right:0;
+     position:absolute;
+     right:0;
+     top:47px;
+     text-align:right;
+     padding:20px 0;
+     z-index:5;
+     background:#08c1c4;
+    }
+} */
 
-}
  nav.sembunyi{
  transform:scale(0);
 
