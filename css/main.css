@@ -2214,34 +2214,51 @@
  align-self:flex-end;
 
 }
- .about-area{
+
+ .about-area,
+ .introduction-area{
  position:relative;
  background:white;
-
 }
- .about-area .story-content h2{
+
+.funfact-area{
+position:relative;
+background:white;
+}
+
+.feat-area{
+position:relative;
+background:white;
+}
+
+ .about-area .story-content h2
+ .introduction-area .story-content h2
+ .funfact-area .story-content h2 {
  font-size:36px;
  line-height:1.25em;
  font-weight:100;
-
 }
- .about-area .story-content h2 span{
+
+ .about-area .story-content h2 span
+ .introduction-area .story-content h2 span
+ .funfact-area .story-content h2 span {
  font-weight:600;
-
 }
- .about-area .story-content p{
+
+ .about-area .story-content p
+ .introduction-area .story-content p
+ .funfact-area .story-content p {
  line-height:1.65em;
  font-size:14px;
  font-weight:300;
-
 }
+
  @media (max-width: 768px){
  .story-content{
  margin-top:40px;
  margin-bottom:40px;
 
 }
- ;
 
 }
  .feature-area{
@@ -2699,6 +2716,10 @@ background-image: url(img/w2.png);
 
 .wim-icon img{
 max-width: 100%;
+}
+
+.icon.style1, .icon.style2, .icon.style3{
+    color: #08c1c4;
 }
 
 /* .short-story{
