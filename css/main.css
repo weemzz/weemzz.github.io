@@ -2779,16 +2779,40 @@ background-image: url(img/w2.png);
 .wim-icon img{
 max-width: 100%;
 }
+
 .short-story{
   display: inline-block;
   text-align: justify;
+  box-shadow: 2px 2px 19px #034849 inset;
+  padding: 3em;
+  border: 1px solid;
 }
+
 .short-story h2 {
     font-size: 36px;
     line-height: 1.25em;
     font-weight: 100;
     text-align: left;
 }
+
 .short-story h2 span {
     font-weight: 600;
+    color: #07a9ab;
+}
+
+.short-story h3{
+    margin-bottom: 0.4em;
+}
+
+.wim-hr{
+  background-image: -moz-linear-gradient( 122deg, #08c1c4 0%, #05787a 100%);
+  background-image: -webkit-linear-gradient( 122deg, #08c1c4 0%, #05787a 100%);
+  background-image: -ms-linear-gradient( 122deg, #08c1c4 0%, #05787a 100%);
+  background-image: linear-gradient( 122deg, #08c1c4 0%, #05787a 100%);
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
+  color: #FFF;
+}
+
+.gantung{
+
 }
