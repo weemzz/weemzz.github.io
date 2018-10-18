@@ -2231,22 +2231,22 @@ position:relative;
 background:white;
 }
 
- .about-area .story-content h2
- .introduction-area .story-content h2
+ .about-area .story-content h2,
+ .introduction-area .story-content h2,
  .funfact-area .story-content h2 {
  font-size:36px;
  line-height:1.25em;
  font-weight:100;
 }
 
- .about-area .story-content h2 span
- .introduction-area .story-content h2 span
+ .about-area .story-content h2 span,
+ .introduction-area .story-content h2 span,
  .funfact-area .story-content h2 span {
  font-weight:600;
 }
 
- .about-area .story-content p
- .introduction-area .story-content p
+ .about-area .story-content p,
+ .introduction-area .story-content p,
  .funfact-area .story-content p {
  line-height:1.65em;
  font-size:14px;
