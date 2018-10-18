@@ -2769,3 +2769,26 @@ background-image: url(img/w2.png);
 .wim-featured{
   background-color: #cefcfd;
 }
+.wim-icon{
+  display: inline-block;
+      width: 27%;
+      clear: left;
+      float: left;
+}
+
+.wim-icon img{
+max-width: 100%;
+}
+.short-story{
+  display: inline-block;
+  text-align: justify;
+}
+.short-story h2 {
+    font-size: 36px;
+    line-height: 1.25em;
+    font-weight: 100;
+    text-align: left;
+}
+.short-story h2 span {
+    font-weight: 600;
+}
