@@ -2895,3 +2895,7 @@ margin: 0 auto;
     font-weight: 100;
     text-align: center;
 }
+
+.text-black{
+	color: #000;
+}
