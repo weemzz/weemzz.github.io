@@ -2219,6 +2219,7 @@
  .introduction-area{
  position:relative;
  background:white;
+border-bottom: solid 1px #dddddd;
 }
 
 .funfact-area{
@@ -2318,6 +2319,7 @@ background: #cefcfd;
 }
  .faq-area{
  background:#fff;
+border-bottom: solid 1px #dddddd;
 
 }
  .counter-left{
