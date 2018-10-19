@@ -2891,6 +2891,10 @@ display: block;
 margin: 0 auto;
 }
 
+.left{
+  float: left;
+}
+
 .text-center h2 {
     font-size: 36px;
     line-height: 1.25em;
@@ -2900,4 +2904,8 @@ margin: 0 auto;
 
 .text-black{
 	color: #000 !important;
+}
+
+.wim-midd h2{
+  text-align: center;
 }
