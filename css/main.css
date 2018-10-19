@@ -2881,3 +2881,9 @@ max-width: 100%;
 .wim-feature li:nth-child(1), .wim-feature lii:nth-child(2), .wim-feature li:nth-child(3) {
     margin-top: 0;
 }
+
+.feat-more{
+  width: 25%;
+display: block;
+margin: 0 auto;
+}
