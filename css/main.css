@@ -2228,7 +2228,7 @@ background:white;
 
 .feat-area{
 position:relative;
-background:white;
+background: #cefcfd;
 }
 
  .about-area .story-content h2,
@@ -2897,5 +2897,5 @@ margin: 0 auto;
 }
 
 .text-black{
-	color: #000;
+	color: #000 !important;
 }
