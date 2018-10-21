@@ -2313,7 +2313,7 @@ border-bottom: solid 1px #dddddd;
  .counter-left h2{
  font-size:48px;
  font-weight:100;
- color:#08c1c4;
+ color:#737373;
 
 }
  .counter-left p{
@@ -2375,12 +2375,12 @@ border-bottom: solid 1px #dddddd;
 }
  .contact-area{
  /* background:url(../img/contact-bg.jpg) no-repeat center center/cover; */
- color: darkcyan;
+ color: #737373;
 
 }
  .contact-area .overlay-bg{
  /* background:rgb(255, 128, 0); */
- background: #08c1c4;
+ background: #cccccc;
  opacity: 0.3;
 }
  .contact-area h2{
@@ -2431,7 +2431,7 @@ border-bottom: solid 1px #dddddd;
 
 }
  .common-input{
- border:1px solid #08c1c4;
+ border:1px solid #999999;
  line-height:48px;
  width:100%;
  display:block;
@@ -2441,7 +2441,7 @@ border-bottom: solid 1px #dddddd;
 
 }
  .common-textarea{
- border:1px solid #08c1c4;
+ border:1px solid #999999;
  width:100%;
  display:block;
  background:transparent;
