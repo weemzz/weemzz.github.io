@@ -719,7 +719,7 @@
 
 }
  b,i,sup,sub,u,del{
- color:#08c1c4;
+ color:#000000;
 
 }
  h1{
@@ -1997,7 +1997,7 @@
 
 }
  .primary-btn.white-bg span{
- color:#08c1c4;
+ color:#737373;
  -webkit-transition:all 0.3s ease 0s;
  -moz-transition:all 0.3s ease 0s;
  -o-transition:all 0.3s ease 0s;
@@ -2214,6 +2214,7 @@ background:white;
 .feat-area{
 position:relative;
 background: #fff;
+border-bottom: 1px solid #e6e6e6;
 }
 
  .about-area .story-content h2,
@@ -2489,7 +2490,7 @@ border-bottom: solid 1px #dddddd;
 
 }
  .footer-bottom .footer-text a{
- color:#08c1c4;
+ color:#737373;
 
 }
  .footer-bottom .footer-text a:hover{
@@ -2499,11 +2500,9 @@ border-bottom: solid 1px #dddddd;
  @media (max-width: 767px){
  .footer-social{
  margin-top:10px;
-
+  }
 }
- ;
 
-}
  .footer-social a{
  width:30px;
  background:#f9f9ff;
@@ -2511,65 +2510,70 @@ border-bottom: solid 1px #dddddd;
  display:inline-block;
  text-align:center;
  margin-right:5px;
-
 }
+
  .footer-social a i{
  color:#777;
  -webkit-transition:all 0.3s ease 0s;
  -moz-transition:all 0.3s ease 0s;
  -o-transition:all 0.3s ease 0s;
  transition:all 0.3s ease 0s;
-
 }
+
  .footer-social a:last-child{
  margin-right:0;
-
 }
+
  .footer-social a:hover{
  background:#08c1c4;
-
 }
+
  .footer-social a:hover i{
  color:#fff;
-
 }
+
  .generic-header .wimMenuBar span{
  color:#777;
-
 }
+
  .generic-header nav a{
  color:#000;
-
 }
+
  .generic-banner{
  background:#fff;
  color:#222;
-
 }
+
  .about-generic-area{
  background:#fff;
-
 }
+
  .about-generic-area .border-top-generic{
  padding:100px 15px;
-
 }
+
  .about-generic-area p{
  margin-bottom:20px;
 }
+
  .white-bg{
  background:#fff;
 }
+
  .section-top-border{
  padding:70px 0;
  border-top:1px dotted #eee;
 }
+
  .switch-wrap{
  margin-bottom:10px;
 }
+
  .switch-wrap p{
  margin:0;
 }
+
  .elements-banner{
  color:#000 !important;
 }
