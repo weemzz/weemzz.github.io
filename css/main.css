@@ -2084,6 +2084,10 @@
  color: #ccc;
 }
 
+.main-txt{
+  margin-bottom: 10px;
+}
+
 .upper-top{
     color: #ccc;
     font-family: helvetica, sans-serif;
@@ -2333,25 +2337,56 @@ border-bottom: solid 1px #dddddd;
  font-size:48px;
  font-weight:100;
  color:#737373;
-
 }
+
  .counter-left p{
  font-size:14px;
  font-weight:300;
-
 }
+
  .counter-left .single-facts{
  margin-bottom:26px;
-
 }
+
  @media (max-width: 768px){
  .counter-left{
  text-align:center;
-
+  }
 }
- ;
 
+.counter-weem{
+  text-align: left;
+  display: flex;
 }
+
+.counter-weem span{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.black .counter-weem h2{
+font-size:48px;
+font-weight:100;
+color:#737373;
+display: inline;
+}
+
+.counter-weem p{
+font-size:14px;
+font-weight:300;
+}
+
+.counter-weem .weem-facts{
+margin-right: 40px;
+}
+
+@media (max-width: 768px){
+    .counter-weem{
+    text-align:center;
+    }
+}
+
  .faq-content{
  padding-left:10%;
  padding-right:10%;
@@ -2361,22 +2396,17 @@ border-bottom: solid 1px #dddddd;
  .faq-content{
  padding-left:2%;
  padding-right:2%;
-
+  }
 }
- ;
 
-}
  @media (max-width: 767px){
  .faq-content{
  text-align:center;
-
+  }
 }
- ;
 
-}
  .single-faq{
  margin-bottom:30px;
-
 }
  .single-faq h2{
  font-size:18px;
