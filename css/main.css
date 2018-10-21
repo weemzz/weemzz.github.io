@@ -2199,12 +2199,12 @@
  align-self:flex-end;
 }
 
- .about-area,
- .introduction-area{
- position:relative;
- background:white;
-border-bottom: solid 1px #dddddd;
-}
+    .about-area, .introduction-area {
+    position: relative;
+    background: #f2f2f2;
+    border-bottom: solid 1px #dddddd;
+    border-top: solid 1px #dddddd;
+    }
 
 .funfact-area{
 position:relative;
@@ -2674,6 +2674,7 @@ font-family: courier new;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
+	    opacity: 0.1;
 }
 
 .wimImg img:hover{
