@@ -2086,7 +2086,7 @@
 
 .upper-top{
     color: #ccc;
-    font-family: helvetica;
+    font-family: helvetica, sans-serif;
 }
 
  @media (max-width: 767px){
