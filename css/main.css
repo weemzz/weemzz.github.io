@@ -2081,12 +2081,16 @@
  line-height:1.2em;
  margin-bottom:20px;
  margin-top:20px;
- color: #ccc;
+ color: #595959;
 }
 
 .upper-top{
     color: #ccc;
     font-family: helvetica, sans-serif;
+}
+
+.wim-top{
+	color: #ccc;
 }
 
  @media (max-width: 767px){
@@ -2214,7 +2218,7 @@
 
 .funfact-area{
 position:relative;
-background:white;
+background: #fff;
 }
 
 .feat-area{
