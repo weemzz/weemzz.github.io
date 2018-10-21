@@ -854,7 +854,7 @@
 }
  .genric-btn.primary{
  color:#fff;
- background:#08c1c4;
+ background:#737373;
  border:1px solid transparent;
 
 }
@@ -865,8 +865,8 @@
 
 }
  .genric-btn.primary-border{
- color:#08c1c4;
- border:1px solid #08c1c4;
+ color:#666666;
+ border:1px solid #737373;
  background:#fff;
 
 }
@@ -2086,52 +2086,43 @@
  @media (max-width: 767px){
  .story-content h1{
  font-size:40px;
-
+   }
 }
- ;
 
-}
  @media (max-width: 991px){
  .story-content h1 br{
  display:none;
-
+   }
 }
- ;
 
-}
  .story-content h6{
  font-weight:400;
-
 }
+
  .story-content p{
  margin-bottom:60px;
  font-size:16px;
-
 }
+
  @media (max-width: 991px){
  .story-content p br{
  display:none;
-
-}
- ;
-
+  }
 }
  .story-content .sp-1{
  font-weight:600;
-
+ color: #737373;
 }
+
  .story-content .sp-2{
- color:#08c1c4;
+ color:#b3b3b3;
  font-weight:600;
-
 }
+
  @media (max-width: 768px){
  .story-content{
  text-align:center;
-
-}
- ;
-
+  }
 }
  .generic-banner{
  background:#08c1c4;
@@ -2144,74 +2135,68 @@
  @media (max-width: 767px){
  .generic-banner .height{
  height:400px;
-
+   }
 }
- ;
 
-}
  .generic-banner .banner-content h2{
  line-height:1.2em;
  margin-bottom:20px;
-
 }
+
+
  @media (max-width: 991px){
  .generic-banner .banner-content h2 br{
  display:none;
-
+   }
 }
- ;
 
-}
  .generic-banner .banner-content p{
  font-size:16px;
-
 }
+
  @media (max-width: 991px){
  .generic-banner .banner-content p br{
  display:none;
-
+   }
 }
- ;
 
-}
  .video-area{
  padding:200px 0 60px 0;
  position:relative;
  background:url(../img/video-bg.jpg) no-repeat center center/cover;
-
 }
+
  .video-area .overlay-bg{
  background:rgb(255, 128, 0);
-
 }
+
  .video-area .video-content{
  text-align:center;
  position:relative;
  z-index:2;
-
 }
+
  .video-area .video-content a{
  display:inline-block;
  margin-bottom:20px;
-
 }
+
  .video-area .video-content h3{
  font-weight:600;
  font-size:18px;
  margin-bottom:10px;
  letter-spacing:2px;
-
 }
+
  .video-area .video-content h4{
  font-weight:300;
  font-size:14px;
-
 }
+
  .video-area .video-content .video-desc{
  margin-top:120px;
  text-align:right;
  align-self:flex-end;
-
 }
 
  .about-area,
@@ -2599,7 +2584,7 @@ border-bottom: solid 1px #dddddd;
 
 .logoWim {
 font-size: 2.3em;
-color: #08c1c4;
+color: #fff;
 font-family: courier new;
 }
 
@@ -2720,7 +2705,7 @@ max-width: 100%;
 }
 
 .icon.style1, .icon.style2, .icon.style3{
-    color: #08c1c4;
+    color: #737373;
 }
 
 /* .short-story{
@@ -2746,7 +2731,7 @@ max-width: 100%;
 
 .short-story h2 span {
     font-weight: 600;
-    color: #07a9ab;
+    color: #737373;
 }
 
 .short-story h3{
@@ -2846,7 +2831,7 @@ max-width: 100%;
 
 .wim-feature li h3{
   margin-bottom: 1em;
-  color: #08c1c4;
+  color: #737373;
 }
 .icon.major:before {
     display: inline-block;
@@ -2907,4 +2892,7 @@ margin: 0 auto;
 
 .wim-midd h2{
   text-align: center;
+}
+
+.txt-shadow{
 }
