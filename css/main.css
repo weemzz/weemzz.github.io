@@ -2082,8 +2082,13 @@
  margin-bottom:20px;
  margin-top:20px;
  color: #ccc;
-
 }
+
+.upper-top{
+    color: #ccc;
+    font-family: helvetica;
+}
+
  @media (max-width: 767px){
  .story-content h1{
  font-size:40px;
@@ -2675,7 +2680,6 @@ font-family: courier new;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
-	    opacity: 0.1;
 }
 
 .wimImg img:hover{
