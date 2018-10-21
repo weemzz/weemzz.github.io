@@ -1838,16 +1838,14 @@
 }
  @media (max-width: 767px){
  .wimMainMenubar a{
- color:#000;
-
+ color:#777;
 }
+	 
  .wimMainMenubar a:hover{
- color:#000;
-
+ color:#08c1c4;
+ }
 }
- ;
 
-}
  .wimMainMenubar{
  position:relative;
 
