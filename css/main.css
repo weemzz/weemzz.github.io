@@ -2221,6 +2221,14 @@ position:relative;
 background: #fff;
 }
 
+.col1 {
+	background-color: #ccc;
+}
+
+.col2{
+	background-color: #999;
+}
+
 .feat-area{
 position:relative;
 background: #fff;
