@@ -2943,6 +2943,11 @@ margin: 0 auto;
 
 .wim-midd h2{
   text-align: center;
+  border: 5px double #ccc;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: #666;
+  box-shadow: 2px 2px 16px #999;
 }
 
 .txt-shadow{
