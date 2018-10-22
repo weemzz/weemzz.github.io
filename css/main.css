@@ -2353,32 +2353,25 @@ border-bottom: solid 1px #dddddd;
   }
 }
 
-.counter-weem{
-  text-align: left;
-  display: flex;
+/* WeeM Counter */
+.weem-facts{
+      display: inline-block;
+      width: 24%;
 }
 
-.counter-weem span{
+.weem-facts span{
   display: inline-block;
   margin-left: 10px;
   font-size: 30px;
+  color: #444;
 }
 
-.black .counter-weem h2{
-font-size:48px;
-font-weight:100;
-color:#737373;
-display: inline;
+.weem-facts h2{
+ display: inline-block;
+ color: #999;
+ font-weight: 300 !important
 }
 
-.counter-weem p{
-font-size:14px;
-font-weight:300;
-}
-
-.counter-weem .weem-facts{
-margin-right: 40px;
-}
 
 @media (max-width: 768px){
     .counter-weem{
