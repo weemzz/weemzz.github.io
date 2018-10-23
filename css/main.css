@@ -2036,7 +2036,7 @@
         padding-bottom: 10em;
       }
       .wim-left-banner {
-      margin: 10em 0;
+      margin: 0 !important;
       }
     }
 
@@ -2057,12 +2057,20 @@
       }
       .black {
       }
+	    
+	.bart {
+	    padding: 0;
+	    }
     }
 
  @media (max-width: 1199px){
  .wim-left-banner{
  margin-top:60px;
   }
+	 
+  .bart {
+    padding: 0;
+    }
 }
 
  .story-content h1{
