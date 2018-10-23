@@ -2747,6 +2747,15 @@ background-image: url(img/w2.png);
 max-width: 100%;
 }
 
+@media (max-width: 768px){
+    .wim-icon{
+      display: contents;
+    }
+    .wim-icon img {
+    max-width: 60%;
+   }
+}
+
 .icon.style1, .icon.style2, .icon.style3{
     color: #737373;
 }
