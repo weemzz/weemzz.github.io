@@ -1,40 +1,40 @@
 ::-moz-selection{
  background-color:#08c1c4;
  color:#fff;
-
 }
+
  ::selection{
  background-color:#08c1c4;
  color:#fff;
-
 }
+
  ::-webkit-input-placeholder{
  color:#000;
  font-weight:300;
-
 }
+
  :-moz-placeholder{
  color:#000;
  opacity:1;
  font-weight:300;
-
 }
+
  ::-moz-placeholder{
  color:#000;
  opacity:1;
  font-weight:300;
-
 }
+
  :-ms-input-placeholder{
  color:#000;
  font-weight:300;
-
 }
+
  ::-ms-input-placeholder{
  color:#000;
  font-weight:300;
-
 }
+
  body{
  color:#777;
  font-family: helvetica, sans-serif, verdana;
@@ -1899,55 +1899,49 @@
 }
  body{
  background:#f6f6fc;
-
 }
+
  .wimBodyWrap{
  box-shadow:0px 0px 50px 0px rgba(0,0,0,0.2);
  margin:50px;
  position:relative;
-
 }
+
  @media (max-width: 767px){
  .wimBodyWrap{
  margin:30px;
-
+  }
 }
- ;
 
-}
  @media (max-width: 575px){
  .wimBodyWrap{
  margin:10px;
-
+  }
 }
- ;
 
-}
  .section-gap{
  padding:100px 0;
-
 }
+
  .section-title{
  padding-bottom:30px;
-
 }
+
  .section-title h2{
  margin-bottom:20px;
-
 }
+
  .section-title p{
  font-size:16px;
  margin-bottom:0;
-
 }
+
  @media (max-width: 991px){
  .section-title p br{
  display:none;
-
+  }
 }
- ;
 
-}
  .primary-btn{
  line-height:40px;
  padding:0 30px;
@@ -1964,57 +1958,57 @@
  transition:all 0.3s ease 0s;
  cursor:pointer;
  text-transform:uppercase;
-
 }
+
  .primary-btn:focus{
  outline:none;
-
 }
+
  .primary-btn span{
  color:#fff;
  position:relative;
  z-index:2;
-
 }
+
  .primary-btn .mr-10{
  -webkit-transition:all 0.3s ease 0s;
  -moz-transition:all 0.3s ease 0s;
  -o-transition:all 0.3s ease 0s;
  transition:all 0.3s ease 0s;
-
 }
+
  .primary-btn:hover .mr-10{
  margin-right:20px;
-
 }
+
  .primary-btn.white-bg{
  background:#fff;
  border:1px solid #eee;
  color:#08c1c4;
-
 }
+
  .primary-btn.white-bg span{
  color:#737373;
  -webkit-transition:all 0.3s ease 0s;
  -moz-transition:all 0.3s ease 0s;
  -o-transition:all 0.3s ease 0s;
  transition:all 0.3s ease 0s;
-
 }
+
  .primary-btn.white-bg:hover{
  background:#08c1c4;
  color:#fff;
  border:1px solid transparent;
-
 }
+
  .primary-btn.white-bg:hover span{
  color:#fff;
-
 }
+
  .wim-area-banner{
  background:#fff;
-
 }
+
  @media (max-width: 767px){
  .wim-area-banner .fullscreen{
  height:1000px !important;
@@ -2068,7 +2062,6 @@
  @media (max-width: 1199px){
  .wim-left-banner{
  margin-top:60px;
-
   }
 }
 
