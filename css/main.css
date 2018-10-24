@@ -1854,7 +1854,7 @@ a:hover{
 }
  @media (max-width: 767px){
  .wimMainMenubar a{
- color:#777;
+ color:#ccc;
 }
 	 
  .wimMainMenubar a:hover{
