@@ -2240,7 +2240,8 @@ border-bottom: 1px solid #e6e6e6;
 
  .about-area .story-content h2,
  .introduction-area .story-content h2,
- .funfact-area .story-content h2 {
+ .funfact-area .story-content h2,
+ .linux h2 {
  font-size:36px;
  line-height:1.25em;
  font-weight:100;
@@ -2248,13 +2249,15 @@ border-bottom: 1px solid #e6e6e6;
 
  .about-area .story-content h2 span,
  .introduction-area .story-content h2 span,
- .funfact-area .story-content h2 span {
+ .funfact-area .story-content h2 span,
+ .linux h2 span {
  font-weight:600;
 }
 
  .about-area .story-content p,
  .introduction-area .story-content p,
- .funfact-area .story-content p {
+ .funfact-area .story-content p,
+ .linux p {
  line-height:1.65em;
  font-size:14px;
  font-weight:300;
@@ -2956,4 +2959,30 @@ margin: 0 auto;
 }
 
 .txt-shadow{
+}
+
+.distros {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    width: 50%;
+}
+
+.distros li:first-child {
+    padding-left: 0;
+    margin: 0;
+}
+
+.distros li {
+  margin: 0 1em 2em 1em;
+  padding: 0;
+  display: inline-block;
+}
+
+.distros li > :last-child {
+    margin-bottom: 0;
+}
+
+.distros img {
+    width: 100%;
 }
