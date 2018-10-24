@@ -2977,6 +2977,11 @@
  .wimFlex{
  display:flex !important
 }
+
+ .wimFlexHeader {
+ display:flex !important
+}
+
  .d-inline-flex{
  display:inline-flex !important
 }
