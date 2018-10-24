@@ -2971,6 +2971,11 @@ margin: 0 auto;
     display: inline-block;
     padding: 0;
     width: 50%;
+    border-top: 1px solid #ccc;
+}
+
+.linux-distro {
+    font-size: 25px !important;
 }
 
 .distros li:first-child {
@@ -2984,10 +2989,28 @@ margin: 0 auto;
   display: inline-block;
 }
 
+@media (max-width: 1200px){
+  .distros {
+    width: 63%;
+	}
+}
+
+@media (max-width: 980px){
+  .distros {
+    width: 84%;
+    }
+}
+
+@media (max-width: 575px){
+    .distros {
+      width: 100%;
+      }
+}
+
 .distros li > :last-child {
     margin-bottom: 0;
 }
 
 .distros img {
-    width: 100%;
+    width: 65%;
 }
