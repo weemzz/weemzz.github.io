@@ -69,10 +69,15 @@
  border:0;
 
 }
- a,a:focus,a:hover{
+ a,a:focus {
  text-decoration:none;
  outline:0;
- color:#777;
+ color:#08c1c4;
+}
+
+a:hover{
+    color: #ccc;
+    text-decoration:none;
 }
 
  .btn.active.focus,.btn.active:focus,.btn.focus,.btn.focus:active,.btn:active:focus,.btn:focus{
