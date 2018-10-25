@@ -3023,7 +3023,7 @@ margin: 0 auto;
     list-style: none;
     display: inline-block;
     padding: 0;
-    width: 50%;
+    width: 100%;
     border-top: 1px solid #ccc;
 }
 
@@ -3065,7 +3065,7 @@ margin: 0 auto;
 
 @media (max-width: 500px){
     .distros {
-      width: 100%;
+      width: 97%;
       }
 }
 
