@@ -2774,10 +2774,11 @@ font-family: courier new;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
+    opacity: 0.3;
 }
 
 .wimImg img:hover{
-opacity: 0.3;
+opacity: 0.1;
 filter: alpha(opacity=100); /* For IE8 and earlier */
 background-image: url(img/w2.png);
 }
