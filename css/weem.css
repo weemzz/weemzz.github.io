@@ -580,6 +580,7 @@ a:hover{
 
 .link-article a:hover{
 	color: #007bff;
+	font-weight: bold;
 }
 
 /* End Linking area */
