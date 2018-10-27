@@ -10,4 +10,13 @@
            .wm-faq-content{
            padding-left:2%;
            padding-right:2%;
+            }
+            
+            .weem-cont p {
+            font-size: 12px;
+            }
+            
+            .weem-facts {
+             width: 22%;
+            }
 }
