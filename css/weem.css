@@ -140,7 +140,29 @@ body{background: #f6f6fc;}
  color: #999;
  font-weight: 300 !important
 }
+
+#wimBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #999;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#wimBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
 /* End Container Area */
+
+
 
 /* Start Logo area */
 .logoWim {
