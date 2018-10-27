@@ -1,0 +1,63 @@
+@media (max-width: 767px){
+      .wimMainMenubar a{
+      color:#08c1c4;
+      }
+
+      .wimMainMenubar a:hover{
+      color:#999;
+       }
+
+       nav a{
+       margin:5px 25px;
+       }
+
+       .wimBodyWrap{
+       margin:10px;
+       }
+
+       .wim-area-banner .fullscreen{
+       height:1000px !important;
+        }
+
+        .weem-cont h1{
+        font-size:40px;
+          }
+
+          .generic-banner .height{
+          height:400px;
+            }
+          }
+
+          .generic-banner .banner-content h2{
+          line-height:1.2em;
+          margin-bottom:20px;
+          }
+
+
+          @media (max-width: 991px){
+          .generic-banner .banner-content h2 br{
+          display:none;
+            }
+          }
+
+          .generic-banner .banner-content p{
+          font-size:16px;
+          }
+
+          @media (max-width: 991px){
+          .generic-banner .banner-content p br{
+          display:none;
+            }
+
+            .wm-faq-content{
+            text-align:center;
+            }
+
+            .footer-social{
+            margin-top:10px;
+             }
+
+             .distros {
+               width: 86%;
+               }
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 736px){
+        .wim-area-banner{
+          padding-bottom: 10em;
+        }
+        .wim-left-banner {
+        margin: 10em 0;
+        }
+
+        .wim-feature li {
+            width: calc(44.33333% - 2em);
+            margin: 0 2em 5em 0;
+        }
+}

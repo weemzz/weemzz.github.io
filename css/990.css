@@ -1,0 +1,17 @@
+@media screen and (max-width: 990px){
+        .wm-pt-200{
+          padding-top: 200px;
+        }
+
+        .logo {
+        text-align: center;
+        width: 100%;
+        padding: 21px 0;
+        }
+
+        .wimFlexHeader {
+        display: inline-block !important;
+        text-align: center;
+        width: 100%;
+        }
+}

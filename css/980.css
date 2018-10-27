@@ -1,0 +1,24 @@
+@media screen and (max-width: 980px){
+   .wim-area-banner{
+     height: auto;
+   }
+   .wim-left-banner {
+   margin: 10em 0;
+   }
+
+   .wim-icon{
+     display: contents;
+   }
+   .wim-icon img {
+   max-width: 19%;
+   }
+
+   .left {
+   margin: 10px;
+   }
+
+   .wim-feature li {
+       width: calc(100% - 2em);
+       margin: 0 auto;
+   }
+ }

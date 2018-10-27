@@ -1,0 +1,18 @@
+@media (max-width: 991px){
+    .section-title p br{
+    display:none;
+    }
+
+    .weem-cont h1 br{
+    display:none;
+      }
+
+      .weem-cont p br{
+      display:none;
+       }
+
+       .weem-cont {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+}

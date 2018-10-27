@@ -1,0 +1,27 @@
+@media screen and (max-width: 360px){
+       .wim-area-banner{
+         padding-bottom: 10em;
+       }
+       .wim-left-banner {
+       }
+
+       .wm-pt-200{
+         padding-top: 300px;
+       }
+
+       .weem-facts {
+       display: inline-block;
+       width: 67% !important;
+       margin: 0 5px;
+       }
+       .counter{
+         font-size: 27px !important;
+       }
+       .weem-facts span {
+         margin-left: 10px !important;
+         font-size: 25px !important;
+       }
+       .weem-facts p{
+         font-size: 12px !important;
+       }
+}

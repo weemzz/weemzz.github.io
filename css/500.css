@@ -1,0 +1,28 @@
+@media (max-width: 500px){
+        .weem-facts {
+          display: inline-block;
+              width: 22% !important;
+              margin: 0 3px;
+          }
+        .weem-facts h2 {
+          display: inline-block;
+          color: #999;
+          font-weight: 300 !important;
+          font-size: 23px !important;
+          }
+
+          .weem-facts span {
+          display: inline-block;
+          margin-left: 10px;
+          font-size: 20px !important;
+          color: #444;
+          }
+
+          .weem-cont p {
+          font-size: 10px !important;
+          }
+
+          .distros {
+            width: 97%;
+            }
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width: 480px){
+       .wim-area-banner{
+         padding-bottom: 10em;
+       }
+       .wim-left-banner {
+       margin: 0 !important;
+       }
+}

@@ -1,0 +1,8 @@
+@media (max-width: 1200px){
+  .distros {
+    width:84%;
+    }
+    .distros li {
+    margin: 0 0em 2em 0em;
+    }
+}

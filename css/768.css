@@ -1,0 +1,52 @@
+@media (max-width: 768px){
+        .weem-cont{
+        text-align:center;
+         }
+
+        .weem-facts {
+         display: inline-block;
+             width: 22% !important;
+             margin: 0 3px;
+         }
+       .weem-facts h2 {
+         display: inline-block;
+         color: #999;
+         font-weight: 300 !important;
+         font-size: 30px !important;
+         }
+
+         .weem-facts span {
+         display: inline-block;
+         margin-left: 10px;
+         font-size: 27px !important;
+         color: #444;
+         }
+
+         .weem-cont p {
+         font-size: 12px !important;
+         }
+
+         .counter-left{
+         text-align:center;
+         }
+
+         .counter-weem{
+         text-align:center;
+         }
+
+         .wim-icon{
+           display: contents;
+         }
+         .wim-icon img {
+         max-width: 50% !important;
+        }
+
+        .weem-cont{
+        margin-top:40px;
+        margin-bottom:40px;
+        }
+
+        .wimImg img{
+          padding-top: 50px;
+        }
+}
