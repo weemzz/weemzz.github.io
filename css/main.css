@@ -2293,6 +2293,26 @@ a:hover{
  align-self:flex-end;
 }
 
+.video{
+  width: 100%;
+  display: inline-flex;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.video li{
+  width: 50%;
+}
+.video li:first-child {
+  padding-right: 10px;
+}
+
+.feat-video{
+  display: flex;
+}
+
     .about-area, .introduction-area {
     position: relative;
     background: #f2f2f2;
