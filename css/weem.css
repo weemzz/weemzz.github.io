@@ -397,7 +397,7 @@ background: rgb(255, 128, 0);
     align-self: flex-end;
 }
 
-video{
+.video{
   width: 100%;
   display: inline-flex;
   overflow: hidden;
