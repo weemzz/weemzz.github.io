@@ -10,4 +10,18 @@
             width: calc(44.33333% - 2em);
             margin: 0 2em 5em 0;
         }
+        
+         .video {
+            display: inline;
+        }
+
+        .video li:first-child {
+            padding-bottom: 10px;
+            padding: 0;
+        }
+
+        .feat-video {
+            display: inline-flex;
+            width: 100%;
+        }
 }
