@@ -3,4 +3,16 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    
+    .video li:first-child {
+    padding-bottom: 10px;
+    }
+    
+    .feat-video {
+    display: inline-block;
+    }
+    
+    .video li {
+    width: 100%;
+    }
 }
