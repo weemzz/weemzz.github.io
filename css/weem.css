@@ -421,6 +421,10 @@ background: rgb(255, 128, 0);
     display: none;
 }
 
+.ytp-title-text {
+    display: none;
+}
+
 /* End Video area */
 
 /* Start Navigations area */
