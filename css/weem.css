@@ -416,6 +416,11 @@ background: rgb(255, 128, 0);
 .feat-video{
   display: flex;
 }
+
+.ytp-title-channel-logo {
+    display: none;
+}
+
 /* End Video area */
 
 /* Start Navigations area */
