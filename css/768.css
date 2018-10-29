@@ -49,4 +49,12 @@
         .wimImg img{
           padding-top: 50px;
         }
+        
+        .paddingBawah-100 {
+        padding-bottom: 200px;
+        }
+        
+        .wimImg img {
+        padding-bottom: 50px;
+        }
 }
