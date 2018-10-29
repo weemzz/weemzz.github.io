@@ -47,14 +47,13 @@
         }
 
         .wimImg img{
-          padding-top: 50px;
+          padding: 50px 0;
         }
         
         .paddingBawah-100 {
         padding-bottom: 200px;
         }
-        
-        .wimImg img {
-        padding-bottom: 50px;
+        paddingBawah-50 {
+        padding-bottom: 100px;
         }
 }
