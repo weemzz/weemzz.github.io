@@ -53,7 +53,11 @@
         .paddingBawah-100 {
         padding-bottom: 200px;
         }
-        paddingBawah-50 {
+        .paddingBawah-50 {
         padding-bottom: 100px;
+        }
+        
+        .wim-left-banner{
+            padding-bottom: 100px;        
         }
 }
