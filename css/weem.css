@@ -11,9 +11,9 @@ body{
 body{background: #f6f6fc;}
 
 .wimBodyWrap{
-    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+    /* box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2); */
     margin: 50px;
-    position: relative;
+    /* position: relative; */
 }
 
 .wimCoreHeader{
