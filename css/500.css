@@ -25,4 +25,7 @@
           .distros {
             width: 97%;
             }
+            text-black-shadow {
+            display: inline-grid;
+            }
 }
