@@ -25,4 +25,8 @@
         .expert {
     width: 37%;
     }
+    
+    text-black-shadow {
+    display: inline-grid;
+    }
 }
