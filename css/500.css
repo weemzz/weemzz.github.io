@@ -25,4 +25,8 @@
           .distros {
             width: 97%;
             }
+        
+        .weem-cont p.text-black-shadow {
+    display: inline-grid;
+    }
 }
