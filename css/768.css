@@ -60,4 +60,13 @@
         .wim-left-banner{
             padding-bottom: 100px;        
         }
+        
+                .wimExpert {
+          width: 65%;
+          padding: 4em 0;
+      }
+
+      .expert {
+        width: 100% !important;
+      }
 }
