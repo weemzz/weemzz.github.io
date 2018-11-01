@@ -27,6 +27,7 @@
             }
         
         .weem-cont p .text-black-shadow {
-    display: inline-grid;
-    }
+                display: inline-grid;
+                margin: 0;
+                }
 }
