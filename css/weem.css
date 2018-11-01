@@ -51,6 +51,40 @@ body{background: #f6f6fc;}
   font-weight: 600;
 }
 
+.weem-expresion{
+    color: #888 !important;
+}
+
+.horror-font{
+  font-family: 'Creepster', cursive;
+      color: #4d4d4d;
+      text-shadow: none;
+}
+
+.points h2 {
+      display: inline-block;
+      border: none !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+      margin: 0 0.4em 0 0 !important;
+      font-size: 25px !important;
+}
+
+.borderBawahH2{
+  border-bottom: 10px solid #f2f2f2 !important;
+  box-shadow: none !important;
+}
+
+.borderBawah{
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 32px;
+}
+
+.weem-expresion .sp-1{
+  font-weight: 600;
+  color: #737373;
+}
+
 .main-txt{margin-bottom: 10px;}
 
 .upper-top{
@@ -221,6 +255,18 @@ background-image: url(img/w2.png);
 /* Start Images area */
 .bart{
       padding: 0 2em 7em 0;
+}
+
+.wim-center{
+justify-content:center !important;
+height: auto !important;
+}
+
+.expert{
+  padding: 0 2em 3em 0;
+  display: inline-block;
+  float: left;
+  width: 30%;
 }
 
 .wim-icon{
@@ -1074,6 +1120,12 @@ display: table;
 
 .text-black{
 	color: #000 !important;
+}
+
+.text-black-shadow {
+  color: #404040 !important;
+      <!-- text-shadow: 2px 3px 3px #d9d9d9; -->
+      font-size: 1.01em;
 }
 
 .wim-midd h2{
