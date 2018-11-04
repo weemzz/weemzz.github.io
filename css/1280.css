@@ -8,5 +8,9 @@
         .black {
                 height: 1500px;
         }
+        
+        nav a {
+         margin: 0 17px;
+        }
 
 }
