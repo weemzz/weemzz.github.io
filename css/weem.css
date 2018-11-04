@@ -2420,3 +2420,18 @@ ol, ul{
      opacity: 0;
        }
    }
+
+.marginBawah-10 {
+    margin-bottom: 10px;
+}
+	
+.tutorH2 {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+    color: #a6a6a6;
+}
+	
+.weem-cont img.mind {
+    width: 100%;
+}
