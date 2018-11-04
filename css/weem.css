@@ -282,6 +282,25 @@ height: auto !important;
 max-width: 100%;
 }
 
+.marginBawah-10 {
+    margin-bottom: 10px;
+}
+	
+.tutorH2 {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+    color: #a6a6a6;
+}
+	
+.weem-cont img.mind {
+    width: 100%;
+}
+
+	.mindmap{
+		width:100%;
+	}
+
 .icon.style1, .icon.style2, .icon.style3{
     color: #737373;
 }
@@ -2421,21 +2440,4 @@ ol, ul{
        }
    }
 
-.marginBawah-10 {
-    margin-bottom: 10px;
-}
-	
-.tutorH2 {
-    width: 100%;
-    border-bottom: 1px solid #ccc;
-    text-align: right;
-    color: #a6a6a6;
-}
-	
-.weem-cont img.mind {
-    width: 100%;
-}
 
-	.mindmap{
-		width:100%;
-	}
