@@ -1,3 +1,15 @@
+.blink {
+  animation: blinker 1s linear infinite;
+  font-weight: bold;
+}
+
+ @keyframes blinker {
+
+   50% {
+     opacity: 0;
+       }
+   }
+
 /* Start Container Area */
 body{
   line-height: 1.5em;
@@ -207,11 +219,6 @@ body{background: #f6f6fc;}
 
 .logo{
 
-}
-
-.blink {
-  animation: blinker 1s linear infinite;
-  font-weight: bold;
 }
 
 .black{
@@ -2432,12 +2439,3 @@ ol, ul{
 
  .form-select .nice-select::after{right: 20px;}
  /* End Select area */
-
- @keyframes blinker {
-
-   50% {
-     opacity: 0;
-       }
-   }
-
-
