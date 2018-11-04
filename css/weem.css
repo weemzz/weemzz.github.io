@@ -96,7 +96,7 @@ body{background: #f6f6fc;}
 
 .aboutWim-area, .introduction-area {
     position: relative;
-    background: #f2f2f2;
+    background: #ccc;
     border-bottom: solid 1px #dddddd;
     border-top: solid 1px #dddddd;
 }
@@ -1142,7 +1142,7 @@ display: table;
 }
 
 .text-black-shadow {
-  color: #404040 !important;
+  color: #595959 !important;
 	font-size: 1.01em;
 }
 
