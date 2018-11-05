@@ -67,6 +67,10 @@ body{background: #f6f6fc;}
     color: #888 !important;
 }
 
+.text-center{
+	text-align: center;
+}
+
 .horror-font{
   font-family: 'Creepster', cursive;
       color: #4d4d4d;
