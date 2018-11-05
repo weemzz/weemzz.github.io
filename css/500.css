@@ -30,4 +30,8 @@
                 display: inline-grid;
                 margin: 0;
                 }
+        
+        .distros img {
+        width: 50%;
+        }
 }
