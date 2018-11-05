@@ -24,4 +24,8 @@
        .weem-facts p{
          font-size: 12px !important;
        }
+       
+       .distros img {
+       width: 50%;
+       }
 }
