@@ -21,4 +21,10 @@
        width: calc(100% - 2em);
        margin: 0 auto;
    }
+   
+   
+        .wim-parallax .wm-parallax-bg {
+                background-position: center center;
+                height: 124%;
+        }
  }
