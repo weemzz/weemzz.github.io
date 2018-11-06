@@ -6,4 +6,9 @@
        margin: 0 !important;
               padding: 0;
        }
+       
+        .wim-parallax .wm-parallax-bg {
+                background-position: center center;
+                height: 124%;
+        }
 }
