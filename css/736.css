@@ -39,4 +39,10 @@
         .wim-left-banner{
             padding-bottom: 100px;        
         }
+        
+        
+        .wim-parallax .wm-parallax-bg {
+                background-position: center center;
+                height: 124%;
+        }
 }
