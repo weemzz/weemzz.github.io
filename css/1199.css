@@ -19,4 +19,14 @@
             .weem-facts {
              width: 22%;
             }
+            
+            .wim-parallax .wm-parallax-bg {
+                background-position: 13px;
+                width: 104%;
+            }
+            
+            .what{
+                max-width: 44%;
+                padding: 0 0 0 37px;
+            }
 }
