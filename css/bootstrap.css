@@ -975,6 +975,16 @@
  background-color:rgba(255,255,255,0.075)
 }
  @media (max-width: 991px){
+ .what{
+  padding-right: 60px;
+    padding-left: 60px;
+  }
+  
+ .wim-parallax .wm-parallax-bg {
+    background-position: center;
+    height: 118.8%;
+}
+  
  .table-responsive{
  display:block;width:100%;overflow-x:auto;-ms-overflow-style:-ms-autohiding-scrollbar
 }
