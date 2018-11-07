@@ -416,6 +416,30 @@
 
 }
 
+@media (max-width: 991px){
+  .what{
+  padding-right: 60px;
+    padding-left: 60px;
+  }
+  
+ .wim-parallax .wm-parallax-bg {
+    background-position: center !important;
+    height: 118.8% !important;
+ }
+ 
+ .what {
+    max-width: 44%;
+    padding: 0 0 0 37px;
+ }
+ 
+}
+
+@media (max-width: 767px){
+  .what {
+    max-width: 44%;
+    padding: 0 0 0 37px;
+ }
+}
 
  .wimCoreChew{
  width:100%;margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;width:100%
@@ -751,11 +775,6 @@
  .order-lg-12{
  order:12
 }
-
-.what {
-    max-width: 44%;
-    padding: 0 0 0 37px;
-}
 }
 
  @media (min-width: 1200px){
@@ -975,15 +994,6 @@
  background-color:rgba(255,255,255,0.075)
 }
  @media (max-width: 991px){
- .what{
-  padding-right: 60px;
-    padding-left: 60px;
-  }
-  
- .wim-parallax .wm-parallax-bg {
-    background-position: center !important;
-    height: 118.8% !important;
-}
   
  .table-responsive{
  display:block;width:100%;overflow-x:auto;-ms-overflow-style:-ms-autohiding-scrollbar
