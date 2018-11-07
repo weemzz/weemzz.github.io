@@ -424,7 +424,6 @@
  
  .what {
     max-width: 44%;
-    padding: 60px 0 0 60px;
  }
  
 }
@@ -432,7 +431,6 @@
 @media (max-width: 767px){
 .what {
     max-width: 100%;
-    padding: 0;
 }
  
  .containerParallax {
