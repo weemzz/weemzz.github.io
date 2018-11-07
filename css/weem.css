@@ -421,6 +421,7 @@ max-width: 60%;
 /* End Distro area */
 
 /* Start Story area */
+.what{padding:0 60px;}
 .short-story{
   display: inline-block;
   text-align: justify;
