@@ -417,27 +417,26 @@
 }
 
 @media (max-width: 991px){
-  .what{
-  padding-right: 60px;
-    padding-left: 60px;
-  }
-  
- .wim-parallax .wm-parallax-bg {
+.wim-parallax .wm-parallax-bg {
     background-position: center !important;
     height: 118.8% !important;
  }
  
  .what {
     max-width: 44%;
-    padding: 0 0 0 37px;
+    padding: 60px 0 0 60px;
  }
  
 }
 
 @media (max-width: 767px){
-  .what {
-    max-width: 44%;
-    padding: 0 0 0 37px;
+.what {
+    max-width: 100%;
+    padding: 0;
+}
+ 
+ .containerParallax {
+    max-width: 680px;
  }
 }
 
