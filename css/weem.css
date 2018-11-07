@@ -14,6 +14,33 @@
       top: -150px;
 }
 
+
+
+ @media (min-width: 992px){
+	.wim-parallax .wm-parallax-bg {
+	       background-position: center left;
+	       width: 107%;
+	   }
+}
+
+ @media (max-width: 1200px){
+    .wim-parallax .wm-parallax-bg {
+	    background-position: 330px center;
+	    width: 100%;
+	 }
+} 
+  
+@media (max-width: 991px){
+	.wim-parallax .wm-parallax-bg {
+	    background-position: center;
+	    height: 118.8%;
+	 }
+ }
+
+
+
+
+
 .wim-parallax .wm-pb-section-parallax .wm-pb-parallax-c, .wim-parallax .wm-pb-slides .wm-parallax-bg.wm-pb-parallax-c {
     background-attachment: fixed;
 }
