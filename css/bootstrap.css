@@ -981,8 +981,8 @@
   }
   
  .wim-parallax .wm-parallax-bg {
-    background-position: center;
-    height: 118.8%;
+    background-position: center !important;
+    height: 118.8% !important;
 }
   
  .table-responsive{
