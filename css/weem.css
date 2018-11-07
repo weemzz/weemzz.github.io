@@ -14,7 +14,19 @@
       top: -150px;
 }
 
-
+ @media (max-width: 1200px){
+    .wim-parallax .wm-parallax-bg {
+	    background-position: 330px center;
+	    width: 100%;
+	 }
+} 
+  
+@media (max-width: 1199px){
+	.wim-parallax .wm-parallax-bg {
+	    background-position: 97px center;
+	    width: 100%;
+	}
+}
 
  @media (min-width: 992px){
 	.wim-parallax .wm-parallax-bg {
@@ -23,21 +35,12 @@
 	   }
 }
 
- @media (max-width: 1200px){
-    .wim-parallax .wm-parallax-bg {
-	    background-position: 330px center;
-	    width: 100%;
-	 }
-} 
-  
 @media (max-width: 991px){
 	.wim-parallax .wm-parallax-bg {
 	    background-position: center;
 	    height: 118.8%;
 	 }
  }
-
-
 
 
 
