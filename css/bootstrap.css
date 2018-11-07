@@ -392,63 +392,44 @@
 
 
  @media (min-width: 576px){
- .containerParallax{
- max-width:540px
-}
+     .containerParallax{
+     max-width:540px
+    }
 
-}
- @media (min-width: 768px){
- .containerParallax{
- max-width:1020px
-}
+    }
+     @media (min-width: 768px){
+     .containerParallax{
+     max-width:1020px
+    }
 
-}
- @media (min-width: 992px){
- .containerParallax{
- max-width:1260px
-}
-  
-   .wim-parallax .wm-parallax-bg {
-       background-position: center left;
-       width: 107%;
-   }
-
+    }
+     @media (min-width: 992px){
+     .containerParallax{
+     max-width:1260px
+    }
 }
 
  @media (min-width: 1200px){
- .containerParallax{
- max-width:1340px
+    .containerParallax{
+    max-width:1340px
+   }
 }
-  
-}
-
- @media (max-width: 1200px){
-    .wim-parallax .wm-parallax-bg {
-    background-position: 330px center;
-    width: 100%;
- }
-} 
   
 @media (max-width: 991px){
-.wim-parallax .wm-parallax-bg {
-    background-position: center;
-    height: 118.8%;
- }
- 
- .what {
-    max-width: 100%;
- }
- 
-}
+     .what {
+        max-width: 100%;
+     }
 
-@media (max-width: 767px){
-.what {
-    max-width: 100%;
-}
- 
- .containerParallax {
-    max-width: 680px;
- }
+    }
+
+    @media (max-width: 767px){
+    .what {
+        max-width: 100%;
+    }
+
+     .containerParallax {
+        max-width: 680px;
+     }
 }
 
  .wimCoreChew{
