@@ -28,6 +28,13 @@
 	}
 }
 
+@media (max-width: 1664px){
+	.wim-parallax .wm-parallax-bg {
+	    background-position: 249px center;
+	    width: 100%;
+	}
+}
+
  @media (man-width: 992px){
 	.wim-parallax .wm-parallax-bg {
 	       background-position: center left;
