@@ -856,6 +856,11 @@ max-width: 66%;
 .collinux {
     margin: 0 0 30px 0;
 }
+	
+	.what {
+    max-width: 100%;
+    padding: 0 0 0 37px;
+}
 }
 
 @media (max-width: 533px){
