@@ -858,8 +858,8 @@ max-width: 66%;
 }
 	
 	.what {
-    max-width: 100%;
-    padding: 0 0 0 37px;
+    max-width: 100% !important;
+    padding: 0 0 0 37px !important;
 }
 }
 
