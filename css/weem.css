@@ -793,6 +793,89 @@ nav a:hover{color: #08c1c4;}
 }
 /* End Counter and Faq area */
 
+
+/* linux distro */
+.linux-distros{
+  display: -moz-flex;
+display: -webkit-flex;
+display: -ms-flex;
+display: flex;
+-moz-flex-wrap: wrap;
+-webkit-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+-moz-justify-content: center;
+-webkit-justify-content: center;
+-ms-justify-content: center;
+width: calc(100% + 0em);
+margin: 0 auto;
+padding: 0;
+list-style: none;
+}
+
+.linux-distros li{
+  width: calc(49.33333% - 2em);
+  margin: 0 0 37px 0;
+  padding: 0;
+  display: inline-flex;
+}
+
+
+.icon.linux {
+    border: solid 1px #e6e6e6;
+    display: inline-table;
+    border-radius: 6%;
+    padding: 0.65em;
+    margin: 0 0 2em 0;
+    cursor: default;
+    box-shadow: 3px 4px 25px #808080;
+    background-color: #fff;
+}
+
+.collinux{
+  flex: 0 0 66%;
+max-width: 66%;
+    margin: 0 28px;
+}
+
+@media (max-width: 991px){
+  .linux-distros li {
+  width: calc(100% - 0em);
+}
+}
+
+@media (max-width: 767px){
+.linux-distros li {
+    display: contents;
+}
+
+.icon.linux {
+    margin: 0 0 2em 0;
+}
+
+.collinux {
+    margin: 0 0 30px 0;
+}
+}
+
+@media (max-width: 533px){
+  .icon.linux {
+      margin: 0 0 2em 0;
+  }
+
+  .collinux {
+    margin: 0 0 59px 30px;
+}
+}
+
+@media (max-width: 456px){
+  .collinux {
+    margin: 0 0 20px 30px;
+  }
+}
+/* end linux distro */
+
+
 /* Start Features area */
 .wim-feature {
     display: -moz-flex;
