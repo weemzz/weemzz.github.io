@@ -874,6 +874,11 @@ max-width: 66%;
     font-size: 12px;
     text-align: center;
   }
+	
+	       .what {
+    max-width: 100%;
+    padding: 0 0 0 37px;
+       }
 }
 /* end linux distro */
 
