@@ -6,5 +6,10 @@
        margin: 0 !important;
               padding: 0;
        }
+       
+       .what {
+    max-width: 100%;
+    padding: 0 0 0 37px;
+       }
 
 }
