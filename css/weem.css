@@ -868,8 +868,8 @@ max-width: 66%;
 }
 	
 	.what {
-    max-width: 100%;
-    padding: 0 12px 0 37px;
+    max-width: 100% !important;
+    padding: 0 12px 0 37px !important;
 }
 }
 
@@ -881,8 +881,8 @@ max-width: 66%;
   }
 	
 .what {
-    max-width: 44%;
-    padding: 0 12px 0 37px;
+    max-width: 100% important;
+    padding: 0 12px 0 37px important;
 }
 }
 /* end linux distro */
