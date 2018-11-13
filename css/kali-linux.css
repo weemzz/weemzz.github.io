@@ -1,0 +1,11 @@
+.black-kali{
+  background-image: url(../img/kalilinux.png);
+  background-position: center;
+  background-size: cover;
+}
+
+pre{
+  background-color: #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
