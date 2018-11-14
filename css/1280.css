@@ -12,4 +12,13 @@
         nav a {
          margin: 0 17px;
         }
+        
+                .kali img {
+            width: 80%;
+        }
+
+        .kali .kali-logo img {
+            width: 77%;
+            display: flex;
+        }
 }
