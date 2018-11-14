@@ -227,11 +227,12 @@ body{background: #fff;}
 
 .wimCoreHeader{
     padding: 20px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 9;
+    background-color: #000;
 }
 
 .weem-cont h1{
