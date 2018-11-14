@@ -226,7 +226,7 @@ body{background: #fff;}
 }
 
 .wimCoreHeader{
-    padding: 20px;
+    padding: 5px;
     position: fixed;
     top: 0;
     left: 0;
@@ -413,7 +413,7 @@ body{background: #fff;}
 
 /* Start Logo area */
 .logoWim {
-      font-size: 2.3em;
+      font-size: 1.8em;
       color: #fff;
       font-family: courier new;
 }
