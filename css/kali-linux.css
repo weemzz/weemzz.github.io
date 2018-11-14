@@ -9,3 +9,7 @@ pre{
     padding: 10px;
     margin: 10px 0;
 }
+
+.tips{
+  border-bottom: 1px solid #ccc;
+}
