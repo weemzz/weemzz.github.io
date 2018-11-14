@@ -15,20 +15,31 @@ pre{
 }
 
 .kali-dragon{
-  background-image: url(../img/kali-dragon.png);
       background-position: center;
       background-repeat: no-repeat;
       margin: 0 auto;
 }
 
 .kali-logo{
-      background-image: url(../img/kali-linux-logo.png);
-      background-repeat: no-repeat;
-      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-      filter: grayscale(100%);
-      
+  margin: o auto;
 }
 
 .kali{
     padding-top: 100px;
+}
+
+.kali img{
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 auto;
+      position: absolute;
+}
+
+.kali .kali-logo img{
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 auto;
+      position: relative;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
 }
