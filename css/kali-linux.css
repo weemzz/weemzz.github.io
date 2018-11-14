@@ -13,3 +13,22 @@ pre{
 .borderBawah{
   border-bottom: 1px solid #ccc;
 }
+
+.kali-dragon{
+  background-image: url(../img/kali-dragon.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 auto;
+}
+
+.kali-logo{
+      background-image: url(../img/kali-linux-logo.png);
+      background-repeat: no-repeat;
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      
+}
+
+.kali{
+    padding-top: 100px;
+}
