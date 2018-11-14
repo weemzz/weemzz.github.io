@@ -85,4 +85,8 @@
         .wim-left-banner{
             padding-bottom: 100px;        
         }
+                
+                        .kali .kali-logo img {
+            width: 49% !important;
+        }
 }
