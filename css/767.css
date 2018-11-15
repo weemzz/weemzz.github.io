@@ -15,7 +15,8 @@
       }
 
        .wimBodyWrap{
-       margin:10px;
+       margin: 0;
+    position: initial;
        }
 
       .black {
