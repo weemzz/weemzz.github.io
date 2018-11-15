@@ -345,9 +345,10 @@ body{background: #fff;}
      .introduction-area .weem-cont p,
      .funfact-area .weem-cont p,
      .linux p {
-     line-height: 1.65em;
+     /* line-height: 1.65em;
+     font-weight: 300; */
      font-size: 14px;
-     font-weight: 300;
+     text-align: justify;
 }
 
 .white-bg{background:#fff;}
