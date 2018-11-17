@@ -574,6 +574,12 @@ max-width: 60%;
   display: inline-block;
 }
 
+.distros li a{
+}
+
+.distros li a:hover{
+}
+
 .distros li > :last-child {
     margin-bottom: 0;
 }
