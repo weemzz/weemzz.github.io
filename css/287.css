@@ -1,0 +1,13 @@
+@media (max-width: 1199px){
+    .black {
+        height: 1570px;
+    }
+    
+    .wimCenterFeature {
+        padding: 0px;
+    }
+
+    icon.major {
+        padding: 0em;
+    }
+}
