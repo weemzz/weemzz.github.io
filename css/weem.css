@@ -574,10 +574,10 @@ max-width: 60%;
   display: inline-block;
 }
 
-.distros li a{
+.linux-distro li a{
 }
 
-.distros li a:hover{
+.linux-distro li a:hover{
 }
 
 .distros li > :last-child {
