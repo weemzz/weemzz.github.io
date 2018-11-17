@@ -1016,7 +1016,10 @@ a:hover{
 .icon-pointer {
 }
 
-.icon-pointer a:hover {
+.icon-pointer a{
+}
+
+.icon-pointer a:hover{
 }
 
 /* End Linking area */
