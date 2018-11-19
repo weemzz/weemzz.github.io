@@ -456,6 +456,26 @@ background-image: url(img/w2.png);
 
 }
 
+.wimImg-about img {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    opacity: 0.03;
+}
+
+.wimImg-about img:hover{
+opacity: 0.02;
+filter: alpha(opacity=100); /* For IE8 and earlier */
+background-image: url(img/w2.png);
+}
+
+#wimImg-about{
+
+}
+
 .blackBotton{
   background-color: white;
 }
