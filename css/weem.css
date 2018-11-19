@@ -476,6 +476,40 @@ background-image: url(img/w2.png);
 
 }
 
+.wimImg-icon img {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+        opacity: 0.2;
+}
+
+.wimImg-icon img.tor {
+    max-width: 65%;
+    opacity: 0.6;
+}
+
+.wimImg-icon img:hover{
+opacity: 0.3;
+filter: alpha(opacity=100); /* For IE8 and earlier */
+background-image: url(img/w2.png);
+}
+
+#wimImg-icon{
+
+}
+
+.wimImg-no img {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
 .blackBotton{
   background-color: white;
 }
