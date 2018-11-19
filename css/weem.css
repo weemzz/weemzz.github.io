@@ -251,6 +251,11 @@ body{background: #fff;}
     font-size: 14px;
 }
 
+.weem-cont p.mar-10{
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+
 .weem-cont .sp-1{
   font-weight: 600;
   color: #737373;
