@@ -317,7 +317,7 @@ body{background: #fff;}
 
 .wim-top{color: #666666 !important;}
 
-.aboutWim-area, .introduction-area {
+.aboutWim-area, .introduction-area, .border-atas-bwh {
     position: relative;
     border-bottom: solid 1px #dddddd;
     border-top: solid 1px #dddddd;
