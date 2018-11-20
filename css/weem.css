@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.dark{
+    background-color: #000;	
+}
+
 .wim-parallax{
     height: 700px;
 }
