@@ -297,6 +297,12 @@ body{background: #fff;}
     text-shadow: 3px 2px 7px #000;
 }
 
+.parrot h6{
+   font-weight: 400;
+    color: #fff;
+    text-shadow: 3px 2px 7px #000;
+}
+
 .weem-expresion{
     color: #888 !important;
 }
