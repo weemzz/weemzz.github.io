@@ -287,6 +287,16 @@ body{background: #fff;}
   font-weight: 600;
 }
 
+.parrot h1{
+   font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: 3px 2px 7px #000;
+}
+
 .weem-expresion{
     color: #888 !important;
 }
