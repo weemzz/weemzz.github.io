@@ -1114,7 +1114,7 @@ a:hover{
    color: #08c1c4;
 }
 
-.tosca a:hover{
+a:hover.tosca {
    color: #fff;
 }
 
