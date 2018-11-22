@@ -468,6 +468,8 @@ body{background: #fff;}
 
 .macaw{
    background-image: url(../img/macaw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .opacity{
