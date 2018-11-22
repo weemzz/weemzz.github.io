@@ -466,6 +466,10 @@ body{background: #fff;}
   color: white;
 }
 
+.macaw{
+   background-image: url(../img/macaw.jpg);
+}
+
 .opacity{
   opacity: 0.5;
 }
