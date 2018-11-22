@@ -16,10 +16,6 @@
    opacity:0.6;
 }
 
-.light{
-    color: #fff;	
-}
-
 .wim-parallax{
     height: 700px;
 }
@@ -1108,6 +1104,18 @@ a:hover{
 }
 
 .icon-pointer a:hover{
+}
+
+.light{
+    color: #fff;	
+}
+
+.tosca a{
+   color: #08c1c4;
+}
+
+.tosca a:hover{
+   color: #fff;
 }
 
 /* End Linking area */
