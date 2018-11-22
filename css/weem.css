@@ -12,6 +12,10 @@
     color: #fff;
 }
 
+.darkBG b{
+    color: #fff;
+}
+
 .opacity6{
    opacity:0.6;
 }
@@ -1106,7 +1110,7 @@ a:hover{
 .icon-pointer a:hover{
 }
 
-.light .light b{
+.light{
     color: #fff;	
 }
 
