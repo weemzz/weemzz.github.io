@@ -265,26 +265,29 @@
     		       <div class="short-story marginAtas-30 marginBawah-30">
     	 <h2 class="marginAtas-30 marginBawah-30">Making <span class="sp-2">bootable USB</span><br>
     	 From <span class="sp-1">Terminal</span></h2>
-	<p>
-	If you use Linux, I suggest using the terminal to make UBS bootable. First you have to ensure the USB position, 
-	this is very important, because this step will format and delete all contents of the intended storage, don't write the USB location incorrectly.
-	</p>
 	<ul>
 	  <li class="marginBawah-30">
-	Plug your USB into a computer, I suggest you use Flash Drive 3.0 even though this isn't necessary, but this will shorten a lot of time, 
-	because the next process will take a lot of time. There are a number of flash drive drives that cannot be used to make Bootable USB, 
-	make sure you buy or use what can be used for Bootable, usually the general Flash drive is used, except for brands like HP, or the like.
+	If you use Linux, I suggest using the terminal to make UBS bootable. First you have to ensure the USB position, 
+	this is very important, because this step will format and delete all contents of the intended storage, don't write the USB location incorrectly.
           </li>
 	  <li class="marginBawah-30">
-	The Device column contains a choice of USB disks that will be formatted and installed, in the example in the Flashdisk image located on H:
+	How to see the location of USB you can scan the fdisk -l this is a command to display all storage and full information including the size and partition.
+	In this tutorial my USB location is on / dev / sdb
           </li>
 	  <li class="marginBawah-30">
-	"Partition scheme and target system system type" column "File system" column "Cluster size" and the "New volume label" column leave it according to default.
+	If your USB has been installed an ISO or IMG file before, then you must format the partition first, first make sure you have 
+	unmounted your USB by typing umount /dev/sdb (remember umount, not unmount)
+	then we format the USB pen drive by typing mkfs.vfat / dev / sdb -I this command will 
+	format the USB and make the filesystem with the FAT extension.
 	  </li>
 	  <li class="marginBawah-30">
-	After that, make sure the three options, "Quick format", "Bootable disk using:", and "Create extended label and icon files" are checked. 
-	on the Create bootable disk using option: you will find a small disk icon, click the icon then a dialog box will 
-	appear in the form of a file manager to direct the ISO file to be used, search for and select the ISO or IMG file that we downloaded earlier.
+	The next step is typing
+	<pre>dd if = / home / WeeM / Download / file.iso of = / dev / sdb</pre>
+	<b>dd</b> is the command to write ISO files in the destination storage.
+	<b>if</b> stands for Input File, then give the location of the file you saved, 
+	in this tutorial I use the file that I saved in the home-Weem-Download folder.
+ 	<b>of</b> stands for Output File, then give the location of your pen drive or 
+	USB according to what we checked with fdisk -l earlier.
           </li>
 	  <li class="marginBawah-30">
 	Wait until the process is complete, DONE will appear on the left side of the bottom corner. 
