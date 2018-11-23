@@ -272,18 +272,19 @@
           </li>
 	  <li class="marginBawah-30">
 	How to see the location of USB you can scan the fdisk -l this is a command to display all storage and full information including the size and partition.
-	In this tutorial my USB location is on / dev / sdb
+	Usually if the Flashdisk or MicroSD is located SDB or SDC, in this tutorial my USB location is on /dev/sdc
           </li>
 	  <li class="marginBawah-30">
 	If your USB has been installed an ISO or IMG file before, then you must format the partition first, first make sure you have 
-	unmounted your USB by typing umount /dev/sdb (remember umount, not unmount)
-	then we format the USB pen drive by typing mkfs.vfat / dev / sdb -I this command will 
+	unmounted your USB by typing umount /dev/sdc (remember umount, not unmount)
+	then we format the USB pen drive by typing mkfs.vfat /dev/sdc -I this command will 
 	format the USB and make the filesystem with the FAT extension.
 	  </li>
 	  <li class="marginBawah-30">
 	The next step is typing
-	<code>dd if=/home/WeeM/Download/file.iso of=/dev/sdb</code>
+	<code>dd if=/home/WeeM/Download/file.iso of=/dev/sdc</code>
 		  <br>
+	<div class="marginBawah-10 marginAtas-10">
 	<b>dd</b> is the command to write ISO files in the destination storage.
 		  <br>
 	<b>if</b> stands for Input File, then give the location of the file you saved, 
@@ -291,6 +292,7 @@
 		  <br>
  	<b>of</b> stands for Output File, then give the location of your pen drive or 
 	USB according to what we checked with fdisk -l earlier.
+	</div>
           </li>
 	  <li class="marginBawah-30">
 	Wait until the process is complete, DONE will appear on the left side of the bottom corner. 
