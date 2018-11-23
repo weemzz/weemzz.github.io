@@ -549,7 +549,7 @@ background-image: url(img/w2.png);
 }
 
 .wimImg-icon img.tor-light {
-    max-width: 65%;
+    max-width: 100%;
 }
 
 .wimImg-icon img:hover{
