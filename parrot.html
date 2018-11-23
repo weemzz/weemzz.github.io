@@ -316,14 +316,57 @@
 <div class="white-bg">	
 <div class="container">
 <div class="section-top-border text-right">
+	 <h2 class="marginAtas-30 marginBawah-30">Making <span class="sp-2">bootable USB</span><br>
+    	 From <span class="sp-1">Terminal</span></h2>
 		            <h3 class="mb-30">Right Aligned</h3>
 		            <div class="row">
 		                <div class="col-md-9">
 		                    <p class="text-right">Over time, even the most sophisticated, memory packed computer can begin to run slow if we don’t do something to prevent it. The reason why has less to do with how computers are made and how they age and more to do with the way we use them. You see, all of the daily tasks that we do on our PC from running programs to downloading and deleting software can make our computer sluggish. To keep this from happening, you need to understand the reasons why your PC is getting slower and do something to keep your PC running at its best. You can do this through regular maintenance and PC performance optimization programs</p>
 		                    <p class="text-right">Before we discuss all of the things that could be affecting your PC’s performance, let’s talk a little about what symptoms</p>
+	
+		<ul>
+	  <li class="marginBawah-30">
+	If you use Linux, I suggest using the terminal to make UBS bootable. First you have to ensure the USB position, 
+	this is very important, because this step will format and delete all contents of the intended storage, don't write the USB location incorrectly.
+          </li>
+	  <li class="marginBawah-30">
+	How to see the location of USB you can scan the fdisk -l this is a command to display all storage and full information including the size and partition.
+	Usually if the Flashdisk or MicroSD is located SDB or SDC, in this tutorial my USB location is on /dev/sdc
+          </li>
+	  <li class="marginBawah-30">
+	If your USB has been installed an ISO or IMG file before, then you must format the partition first, first make sure you have 
+	unmounted your USB by typing umount /dev/sdc (remember umount, not unmount)
+	then we format the USB pen drive by typing mkfs.vfat /dev/sdc -I this command will 
+	format the USB and make the filesystem with the FAT extension.
+	  </li>
+	  <li class="marginBawah-30">
+	The next step is typing
+	<code>dd if=/home/WeeM/Download/file.iso of=/dev/sdc</code>
+		  <br>
+	<div class="marginBawah-10 marginAtas-10">
+		<ul>
+			<li>
+	<b>dd</b> is the command to write ISO files in the destination storage.
+		  </li>
+			<li>
+	<b>if</b> stands for Input File, then give the location of the file you saved, 
+	in this tutorial I use the file that I saved in the home-Weem-Download folder.
+		  </li>
+			<li>
+ 	<b>of</b> stands for Output File, then give the location of your pen drive or 
+	USB according to what we checked with fdisk -l earlier.
+			</li>
+		</ul>
+	</div>
+          </li>
+	  <li class="marginBawah-30">
+	Wait until it's finished, maybe there is no sign of the process, so just wait until it's finished. When finished, 
+	remove the flashdisk from the computer, and bootable USB is ready to be used for the next process.
+          </li>
+	</ul>
 		                </div>
 		                <div class="col-md-3">
-		                    <img src="img/d.jpg" alt="" class="img-fluid">
+		                    <img src="img/fdisk.png" alt="" class="img-fluid">
 		                </div>
 		            </div>
  </div>
