@@ -1616,6 +1616,76 @@ display: table;
 }
 /* End margin and padding */
 
+/* Start list area */
+ol, ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-style{
+    height: 14px;
+    width: 14px;
+}
+
+.unordered-list li{
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.82em !important;
+}
+
+.unordered-list li: before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 3px solid #08c1c4;
+    background: #fff;
+    top: 4px;
+    left: 0;
+    border-radius: 50%;
+    }
+
+.ordered-list{margin-left: 30px;}
+
+.ordered-list li{
+    list-style-type: decimal-leading-zero;
+    color: #08c1c4;
+    font-weight: 500;
+    line-height: 1.82em !important;
+}
+
+.ordered-list li span{
+    font-weight: 300;
+    color: #777;
+}
+
+.ordered-list-alpha li{
+    margin-left: 30px;
+    list-style-type: lower-alpha;
+    color: #08c1c4;
+    font-weight: 500;
+    line-height: 1.82em !important;
+}
+
+.ordered-list-alpha li span{
+    font-weight: 300;
+    color: #777;
+}
+
+.ordered-list-roman li{
+    margin-left: 30px;
+    list-style-type: lower-roman;
+    color: #08c1c4;
+    font-weight: 500;
+    line-height: 1.82em !important;
+}
+
+.ordered-list-roman li span{
+    font-weight: 300;
+    color: #777;
+}
+/*end list area*/
 /* Start miscellaneous */
 .float-kanan{
   float: right;
@@ -2200,76 +2270,8 @@ aZVCDFRRR
 }
 /* End Table progress */
 
-/* Start list area */
-ol, ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-.list-style{
-    height: 14px;
-    width: 14px;
-}
-
-.unordered-list li{
-    position: relative;
-    padding-left: 30px;
-    line-height: 1.82em !important;
-}
-
-.unordered-list li: before{
-    content: "";
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    border: 3px solid #08c1c4;
-    background: #fff;
-    top: 4px;
-    left: 0;
-    border-radius: 50%;
-    }
-
-.ordered-list{margin-left: 30px;}
-
-.ordered-list li{
-    list-style-type: decimal-leading-zero;
-    color: #08c1c4;
-    font-weight: 500;
-    line-height: 1.82em !important;
-}
-
-.ordered-list li span{
-    font-weight: 300;
-    color: #777;
-}
-
-.ordered-list-alpha li{
-    margin-left: 30px;
-    list-style-type: lower-alpha;
-    color: #08c1c4;
-    font-weight: 500;
-    line-height: 1.82em !important;
-}
-
-.ordered-list-alpha li span{
-    font-weight: 300;
-    color: #777;
-}
-
-.ordered-list-roman li{
-    margin-left: 30px;
-    list-style-type: lower-roman;
-    color: #08c1c4;
-    font-weight: 500;
-    line-height: 1.82em !important;
-}
-
-.ordered-list-roman li span{
-    font-weight: 300;
-    color: #777;
-}
-
+/*start wim list area */
 .wim-feature li h3{
   margin-bottom: 1em;
   color: #737373;
@@ -2278,7 +2280,7 @@ ol, ul{
 .wim-feature li:nth-child(1), .wim-feature li:nth-child(2), .wim-feature li:nth-child(3) {
     margin-top: 0;
 }
-/* End list area */
+/* End wim list area */
 
 /* Start Input Checkbox Radio area */
 
