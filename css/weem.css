@@ -254,7 +254,7 @@ body{background: #fff;}
     left: 0;
     width: 100%;
     z-index: 9;
-    background-color: #000;
+    background-color: transparent;
 }
 
 .weem-cont h1{
