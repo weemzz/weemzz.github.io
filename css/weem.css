@@ -553,6 +553,10 @@ background-image: url(img/w2.png);
     opacity: 100;
 }
 
+.wimImg-icon img.tor-light:hover {
+    opacity: 0.9;
+}
+
 .wimImg-icon img:hover{
 opacity: 0.3;
 filter: alpha(opacity=100); /* For IE8 and earlier */
