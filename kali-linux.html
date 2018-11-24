@@ -198,62 +198,6 @@
 			</div>
 			</div>
 		</div> --><!--row wimCenterItem-->
-		<div class="row wimCenterItem borderBawah">
-			   <div class="col-lg-6 marginAtas-50">
-				<div class="weem-cont">
-    		    <h4 class="marginBawah-30">Mandatory routine activities</h4>
-    		    The first thing after successfully installing is to open the Terminal, the heart of Linux, usually indicated by a black box icon with a little code image. 
-    		    do the Update and Upgrade by typing
-    		    <pre>apt-get update</pre>
-    		    then type
-    		    <pre>apt-get upgrade</pre>
-    		    you will be given the choice to continue or not, and type the letter y then enter to continue. For some reason,
-    		    you can skip this option by adding -y at the end of the apt-get command like This
-    		    <pre>apt-get -y upgrade</pre>
-    		    Or you can also use additional "dist" which means the distributor when upgrading to get a stable upgrade from
-    		    the application that the distributor provides, while third party applications are not included in this process.
-    		    You should use both.
-    		    <pre>apt-get dist-upgrade</pre> or <pre>apt-get -y dist-upgrade</pre>
-    		    that's a routine activity that you have to do often, or you can make one command to be
-    		    <pre>apt-get update && apt-get -y upgrade && apt-get -y dist-upgrade</pre>
-			</div>
-		 </div>
-
-
-		 <div class="col-lg-6 marginAtas-50">
-		 <div class="weem-cont">
-			 <h4 class="marginBawah-30">Explanation Command</h4>
-			 The <code>useradd</code> is for create user, <code>-m</code> is to create folder for some users.
-			 Sometime you will get some form, fullfill with whatever you want to type, just follow, and type Y if you get question Y/N.
-			 If you not get that questions, its ok, just continue to make password for user.
-			 <br>
-			 <br>
-			 <code>passwd</code> is to create password for one or more user.
-			 Typing password on terminal for safety is invisible, and the "UNIX" text that appears because Linux is made on the basis of the UNIX kernel,
-			 so don't worry about that.
-			 <br>
-			 <br>
-			 <code>usermod</code> is to give some user a mod that required next command, to see list command for usermod just type <code>usermod -help</code>
-			 <code>-a</code> stand for append, to append the user to supplemental groups, is easy way, is to enter user into some group.
-			 The <code>G</code> is to not remove user from his/her initial group. So, the <code>-aG</code> can be interpreted "hey dude,
-			 give this user into next group, but dont don't remove it from their native group"
-			 <br>
-			 <br>
-			<code>sudo</code> is a Super user group, or can be a command if some user want to do something that required super user.
-			 If you typing some command like <code>apt-get update</code>
-			 or anything else, that go with error that contain "permission Denied" or "Are you Administrator"
-			 just type this to solve :
-			 <code>sudo !!</code>
-			 <br>
-			 <br>
-			 or <code>sudo apt-get update</code>
-			 then you will asked to give password that you creat earlier.
-			 To find out if you have logged in perfectly with the account you just created,
-			 open terminal, than you will see <code>weem@kali:~$</code> not a <code>root@kali:~$</code> anymore.
-	 </div>
-	</div>	   
-		</div>
-			   
 			   
 		<div class="row wimCenterItem borderBawah">
 			   <div class="col-lg-6 marginAtas-50">
@@ -325,10 +269,8 @@ Retype new UNIX password:</pre>
 <!-- start coba area -->
     	<section id="tips" class="feat-area paddingAtas-150 paddingBawah-150">
     	  <div class="container">
-    	    <div class="row wimCenterFeature">
-    	      <div class="col-wm-6">
-    		<div class="short-story text-center marginAtas-30 marginBawah-30">
-		</div>
+	      <div class="row wimCenterItem borderBawah">
+		  <div class="col-lg-6 marginAtas-50">
     		    <div class="weem-cont">
     		    <h4 class="marginBawah-30">Mandatory routine activities</h4>
     		    The first thing after successfully installing is to open the Terminal, the heart of Linux, usually indicated by a black box icon with a little code image. 
