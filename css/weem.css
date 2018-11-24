@@ -1158,6 +1158,14 @@ a:hover.tosca {
    color: #fff;
 }
 
+.toscaDark{
+   color: #08c1c4;
+}
+
+a:hover.toscaDark {
+   color: #000;
+}
+
 /* End Linking area */
 
 /* Start Contact area */
