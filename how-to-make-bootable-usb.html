@@ -162,7 +162,76 @@
 	</div>
 	</section>
 <!-- End Tutorial1 -->
-		
+
+<!-- Start Tutorial2 -->
+    		<section id="tips" class="feat-area paddingAtas-150 paddingBawah-150">
+    		  <div class="container">
+    		   <div class="row">
+			   <div class="col-lg-6 wimImg-icon">
+				<img id="wimImg-icon" class="tor-light" src="img/fdisk.png" />
+			   </div>
+    		     <div class="col-lg-6">
+    		       <div class="short-story marginAtas-30 marginBawah-30">
+    	 <h2 class="marginAtas-30 marginBawah-30">Making <span class="sp-2">bootable USB</span><br>
+    	 From <span class="sp-1">Terminal</span></h2>
+	<ol class="ordered-list">
+	  <li class="marginBawah-30">
+		  <span>
+	If you use Linux, I suggest using the terminal to make UBS bootable. First you have to ensure the USB position, 
+	this is very important, because this step will format and delete all contents of the intended storage, don't write the USB location incorrectly.
+			  </span>
+          </li>
+	  <li class="marginBawah-30">
+		  		<span>
+	How to see the location of USB you can scan the fdisk -l this is a command to display all storage and full information including the size and partition.
+	Usually if the Flashdisk or MicroSD is located SDB or SDC, in this tutorial my USB location is on /dev/sdc
+		  </span>
+          </li>
+	  <li class="marginBawah-30">
+		  		  <span>
+	If your USB has been installed an ISO or IMG file before, then you must format the partition first, first make sure you have 
+	unmounted your USB by typing umount /dev/sdc (remember umount, not unmount)
+	then we format the USB pen drive by typing mkfs.vfat /dev/sdc -I this command will 
+	format the USB and make the filesystem with the FAT extension.
+		  <span>
+	  </li>
+	  <li class="marginBawah-30">
+		  		<span>
+	The next step is typing
+	<code>dd if=/home/WeeM/Download/file.iso of=/dev/sdc</code>
+		  <br>
+	<div class="marginBawah-10 marginAtas-10">
+			<ol class="ordered-list-alpha">
+			<li><span> 
+	<b>dd</b> is the command to write ISO files in the destination storage.
+		  	</span></li>
+			<li><span> 
+	<b>if</b> stands for Input File, then give the location of the file you saved, 
+	in this tutorial I use the file that I saved in the home-Weem-Download folder.
+		 	 </span></li>
+			<li><span> 
+ 	<b>of</b> stands for Output File, then give the location of your pen drive or 
+	USB according to what we checked with fdisk -l earlier.
+			</span></li>
+			</ol>
+	</div>
+			</span>
+          </li>
+	  <li class="marginBawah-30">
+		  		<span>
+	Wait until it's finished, maybe there is no sign of the process, so just wait until it's finished. When finished, 
+	remove the flashdisk from the computer, and bootable USB is ready to be used for the next process.
+				</span>
+          </li>
+	</ol>
+
+    	</div>
+	</div>
+    	</div>
+	</div>
+	</section>
+<!-- End Tutorial2 -->
+			
 <!-- Start Conatct- Area -->
     <section class="contact-area paddingAtas-100 paddingBawah-100 relative">
 			<div class="overlay overlay-bg"></div>
