@@ -53,7 +53,7 @@
     			</div>
     		<div class="wimMainMenubar wimFlex wimCenterItem">
     		<nav>
-    		  <a href=#explanation>Kali Linux</a>
+    		  <a href=#intro>Introduction</a>
     		  <a href=#tips>Tips and Trick</a>
     		  <a href=#contact>Contact</a>
     
@@ -67,7 +67,7 @@
 <!-- End Header Area -->
 
 <!-- Start WeeM Area -->
-    		<section id="about" class="about-area wm-pt-200 paddingBawah-100 black">
+    		<section id="intro" class="about-area wm-pt-200 paddingBawah-100 black">
     		  <div class="container">
     		    <div class="row wimCenterItem fullscreen wim-justify-center">
     	    <div class="col-lg-6 wimImg">
@@ -95,7 +95,7 @@
 <!-- End WeeM Area -->
 		<button id="wimBtn" onclick="topFunction()" title="Go to top">Top</button>
 <!-- Start activity area1 -->
-    		<section id="tips" class="paddingAtas-150 paddingBawah-50">
+    		<section id="first" class="paddingAtas-150 paddingBawah-50">
     		  <div class="container">
     		   <div class="row wimCenterItem">
     		     <div class="col-wm-6">
@@ -177,7 +177,7 @@ Retype new UNIX password:</pre>
 <!-- end activity area1 -->
 
 <!-- Start activity area2 -->
-    	<section id="tips" class="feat-area paddingBawah-150 paddingAtas-50">
+    	<section id="second" class="feat-area paddingBawah-150 paddingAtas-50">
     	  <div class="container">
 	      <div class="row wimCenterItem borderBawah">
 		  <div class="col-lg-6 marginAtas-50">
@@ -241,86 +241,7 @@ Retype new UNIX password:</pre>
 	</section>
 <!-- end activity area2 -->        
 
-<!-- Start activity area1 -->
-    		<section id="tips" class="paddingAtas-150 paddingBawah-50">
-    		  <div class="container">
-    		   <div class="row wimCenterItem">
-    		     <div class="col-wm-6">
-    		       <div class="short-story text-center marginAtas-30 marginBawah-30">
-    			 <h2>What should <span class="sp-2">You do</span><br>
-    			 After install <span class="sp-1">Linux OS</span></h2>
-    			   <p class="marginAtas-30">
-			like all Operating System that 
-			   </p>
-    		      </div>
-			</div>
-			   
-		<div class="row wimCenterItem borderBawah">
-			   <div class="col-lg-6 marginAtas-50">
-				<div class="weem-cont">
-					<h4 class="marginBawah-30">Make users (very important)</h4>
-					Some applications may not work if you work with Root user on every linux, besides in terms of security which will be very vulnerable,
-					is an unwise behavior that can open a gap for viruses or other cyber crimes. Then you have to make a user use it,
-					so take a shot.
-					<br>
-					Open terminal on your linux, then type :
-					<pre>useradd -m weem</pre>
-					Make password for user weem
-					<pre>passwd weem</pre>
-					It will display :
-					<pre>Enter new UNIX password:
-Retype new UNIX password:</pre>
-					Anything you typing here, is gonna be invisible, so careful to write your password.
-					if you done typing password twice, press enter.
-					Then type :
-					<pre>usermod -aG sudo weem</pre>
-					this will add user weem have a super power if we call sudo (stand for Super User Do)
-					To see all list of users we can type :
-					<pre>cat /etc/passwd</pre>
-					Now you have to logout, then login with new user that we have made.
-			</div>
-		 </div>
 
-
-		 <div class="col-lg-6 marginAtas-50">
-		 <div class="weem-cont">
-			 <h4 class="marginBawah-30">Explanation Command</h4>
-			 The <code>useradd</code> is for create user, <code>-m</code> is to create folder for some users.
-			 Sometime you will get some form, fullfill with whatever you want to type, just follow, and type Y if you get question Y/N.
-			 If you not get that questions, its ok, just continue to make password for user.
-			 <br>
-			 <br>
-			 <code>passwd</code> is to create password for one or more user.
-			 Typing password on terminal for safety is invisible, and the "UNIX" text that appears because Linux is made on the basis of the UNIX kernel,
-			 so don't worry about that.
-			 <br>
-			 <br>
-			 <code>usermod</code> is to give some user a mod that required next command, to see list command for usermod just type <code>usermod -help</code>
-			 <code>-a</code> stand for append, to append the user to supplemental groups, is easy way, is to enter user into some group.
-			 The <code>G</code> is to not remove user from his/her initial group. So, the <code>-aG</code> can be interpreted "hey dude,
-			 give this user into next group, but dont don't remove it from their native group"
-			 <br>
-			 <br>
-			<code>sudo</code> is a Super user group, or can be a command if some user want to do something that required super user.
-			 If you typing some command like <code>apt-get update</code>
-			 or anything else, that go with error that contain "permission Denied" or "Are you Administrator"
-			 just type this to solve :
-			 <code>sudo !!</code>
-			 <br>
-			 <br>
-			 or <code>sudo apt-get update</code>
-			 then you will asked to give password that you creat earlier.
-			 To find out if you have logged in perfectly with the account you just created,
-			 open terminal, than you will see <code>weem@distroName:~$</code> not a <code>root@distroName:~$</code> anymore.
-	 </div>
-	</div>	   
-		</div> <!--row wimCenterItem-->
-			   
-			   
-    	</div>
-	</div>
-	</section>
-<!-- end activity area1 -->
 		
 		
 <!-- Start Conatct- Area -->
