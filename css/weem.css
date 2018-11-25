@@ -679,7 +679,7 @@ max-width: 60%;
   border: 1px solid transparent;
 }
 
-.progress-table-wrap{overflow-x: scroll;}
+.progress-table-wrap{overflow-x: hidden;}
 
 .progress-table{
     background: #f9f9ff;
