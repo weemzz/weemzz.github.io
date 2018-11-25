@@ -581,6 +581,7 @@ background-image: url(img/w2.png);
 }
 /* End Logo area */
 
+
 /* Start Images area */
 .bart{
       padding: 0 2em 7em 0;
@@ -670,6 +671,101 @@ max-width: 60%;
 }
 /* End Images area */
 
+/* Start progress table */
+.generic-blockquote{
+  background: #f9f9ff;
+  color: #222,0.3;
+  cursor: not-allowed;
+  border: 1px solid transparent;
+}
+
+.progress-table-wrap{overflow-x: scroll;}
+
+.progress-table{
+    background: #f9f9ff;
+    padding: 15px 0px 30px 0px;
+    min-width: 800px;
+}
+
+.progress-table .serial{
+    padding-left: 30px;
+    width: 11.83%;
+}
+
+.progress-table .country{width: 28.07%;}
+
+.progress-table .visit{width: 19.74%;}
+
+.progress-table .percentage{
+    padding-right: 50px;
+    width: 40.36%;
+}
+
+.progress-table .table-head{display: flex;}
+
+.progress-table  .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage{
+      font-weight: 500;
+      color: #222;
+      text-transform: uppercase;
+      line-height: 40px;
+}
+
+.progress-table .table-row{
+      padding: 15px 0;
+      display: flex;
+      border-top: 1px solid #edf3fd;
+}
+
+.progress-table .table-row .serial,
+.progress-table .table-row .country,
+.progress-table .table-row .visit,
+.progress-table .table-row .percentage{
+    display: flex;
+    align-items: center;
+}
+
+.progress-table .table-row .country img{margin-right: 15px;}
+
+.progress-table .table-row .percentage .progress{
+    background: transparent;
+    width: 80%;
+    border-radius: 0px;
+}
+
+.progress-table .table-row .percentage .progress .progress-bar{
+    line-height: 5px;
+    height: 5px;
+}
+
+.progress-table .table-row .percentage .progress .progress-bar.color-1{background-color: #6382e6;}
+
+.progress-table .table-row .percentage .progress .progress-bar.color-2{background-color: #e66686;}
+
+.progress-table .table-row .percentage .progress .progress-bar.color-3{background-color: #f09359;}
+
+.progress-table .table-row .percentage .progress .progress-bar.color-4{background-color: #73fbaf;}
+
+.progress-table .table-row .percentage .progress .progress-bar.color-5{background-color: #73fbaf;}
+
+.progress-table .table-row .percentage .progress .progress-bar.color-6{background-color: #6382e6;}
+
+.progress-table .table-row .percentage .progress .progress-bar.color-7{background-color: #a367e7;}
+
+.progress-table .table-row .percentage .progress .progress-bar.color-8{background-color: #e66686;}
+
+.single-gallery-image{
+    height: 200px;
+    margin-top: 30px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+/* End Table progress */
+
+
 /* Start Distro area */
 .distros {
     list-style: none;
@@ -702,6 +798,7 @@ max-width: 60%;
     width: 100%;
 }
 /* End Distro area */
+
 
 /* Start Story area */
 .what{padding:0 60px;}
@@ -2183,101 +2280,7 @@ aZVCDFRRR
 
 .primary-btn.white-bg:hover span{color: #fff;}
 /* End Primary Button */
-
-/* Start progress table */
-.generic-blockquote{
-  background: #f9f9ff;
-  color: #222,0.3;
-  cursor: not-allowed;
-  border: 1px solid transparent;
-}
-
-.progress-table-wrap{overflow-x: scroll;}
-
-.progress-table{
-    background: #f9f9ff;
-    padding: 15px 0px 30px 0px;
-    min-width: 800px;
-}
-
-.progress-table .serial{
-    padding-left: 30px;
-    width: 11.83%;
-}
-
-.progress-table .country{width: 28.07%;}
-
-.progress-table .visit{width: 19.74%;}
-
-.progress-table .percentage{
-    padding-right: 50px;
-    width: 40.36%;
-}
-
-.progress-table .table-head{display: flex;}
-
-.progress-table  .table-head .serial,
-.progress-table .table-head .country,
-.progress-table .table-head .visit,
-.progress-table .table-head .percentage{
-      font-weight: 500;
-      color: #222;
-      text-transform: uppercase;
-      line-height: 40px;
-}
-
-.progress-table .table-row{
-      padding: 15px 0;
-      display: flex;
-      border-top: 1px solid #edf3fd;
-}
-
-.progress-table .table-row .serial,
-.progress-table .table-row .country,
-.progress-table .table-row .visit,
-.progress-table .table-row .percentage{
-    display: flex;
-    align-items: center;
-}
-
-.progress-table .table-row .country img{margin-right: 15px;}
-
-.progress-table .table-row .percentage .progress{
-    background: transparent;
-    width: 80%;
-    border-radius: 0px;
-}
-
-.progress-table .table-row .percentage .progress .progress-bar{
-    line-height: 5px;
-    height: 5px;
-}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-1{background-color: #6382e6;}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-2{background-color: #e66686;}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-3{background-color: #f09359;}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-4{background-color: #73fbaf;}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-5{background-color: #73fbaf;}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-6{background-color: #6382e6;}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-7{background-color: #a367e7;}
-
-.progress-table .table-row .percentage .progress .progress-bar.color-8{background-color: #e66686;}
-
-.single-gallery-image{
-    height: 200px;
-    margin-top: 30px;
-    background-repeat: no-repeat !important;
-    background-position: center center !important;
-    background-size: cover !important;
-}
-/* End Table progress */
-
+	
 
 /*start wim list area */
 .wim-feature li h3{
