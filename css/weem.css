@@ -1366,9 +1366,9 @@ footer .footer-nav li a:hover{color: #08c1c4;}
 
 .footer-bottom .footer-text a:hover{color: #737373;}
 
-.term a{color: #737373;}
+.term a{color: #737373 !important;}
 
-.term a:hover{color: #08c1c4;}
+.term a:hover{color: #08c1c4 !important;}
 
 .footer-social a{
     width: 30px;
