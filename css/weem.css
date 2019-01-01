@@ -1366,6 +1366,10 @@ footer .footer-nav li a:hover{color: #08c1c4;}
 
 .footer-bottom .footer-text a:hover{color: #737373;}
 
+.term a{color: #737373;}
+
+.term a:hover{color: #08c1c4;}
+
 .footer-social a{
     width: 30px;
     background: #f9f9ff;
